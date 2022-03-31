@@ -1,9 +1,9 @@
 OSM Tags,OSM Values,Constraint Name,Constraint Type
 Highway,Primary,Primary Roads,Line
 Highway,Secondary,Secondary Roads,Line
-Highway,Tertiary ,Roads,Line
+Highway,Tertiary,Roads,Line
 Highway,Unclassified,Roads,Line
-Highway, Path ,Roads,Line
+Highway,Path,Roads,Line
 Highway,Service,Roads,Line
 Highway,Residential,Roads,Line
 Highway,Path,Tracks,Line
@@ -11,27 +11,27 @@ Highway,Track,Tracks,Line
 Highway,Cycleway,IGNORE,Line
 Highway,Footway,IGNORE,Line
 Highway,Lanes,IGNORE,Line
-Highway,Bus Stop ,IGNORE,Point
-Highway,Turning Circle ,IGNORE,Point
+Highway,Bus Stop,IGNORE,Point
+Highway,Turning Circle,IGNORE,Point
 Highway,Crossing,IGNORE,Point
-Highway, Traffic Signal,IGNORE,Point
+Highway,Traffic Signal,IGNORE,Point
 Highway,Turning Loop,IGNORE,Point
 Admin Boundaries/ Admin level,v = 1 - 10,Boundary,Line
 Power,Line,Grid,Line
-Natural ,Water,Natural Features,Area
-Natural ,Mud,Natural Features,Area
-Natural ,Wood,Natural Features,Area
-Natural ,Coastline,Natural Features,Area
-Natural ,Bare Rock,Natural Features,Area
-Natural ,Sand,Natural Features,Area
-Natural ,Wetland ,Natural Features,Area
-Natural ,Beach,Natural Features,Area
-Natural ,Scrub,Natural Features,Area
-Natural ,Bare Rock,Natural Features,Area
-Natural ,Grassland,Natural Features,Area
-Natural ,Coastline,Boundary,Line
-Natural ,Tree row,IGNORE,Line
-Natural ,Ridge,IGNORE,Line
+Natural,Water,Natural Features,Area
+Natural,Mud,Natural Features,Area
+Natural,Wood,Natural Features,Area
+Natural,Coastline,Natural Features,Area
+Natural,Bare Rock,Natural Features,Area
+Natural,Sand,Natural Features,Area
+Natural,Wetland,Natural Features,Area
+Natural,Beach,Natural Features,Area
+Natural,Scrub,Natural Features,Area
+Natural,Bare Rock,Natural Features,Area
+Natural,Grassland,Natural Features,Area
+Natural,Coastline,Boundary,Line
+Natural,Tree row,IGNORE,Line
+Natural,Ridge,IGNORE,Line
 Barrier,"Fence, Wall",IGNORE,Line
 Barrier,Cattle Grid,IGNORE,Point
 Barrier,Gate,IGNORE,Point
@@ -52,7 +52,7 @@ Aeroway,Taxiway,Airspace,Line
 Aeroway,Runway,Airspace,Line
 Service,Parking Aisle,IGNORE,Line
 Place,Locality,Village,Point
-Place,Hamlet ,Village,Point
+Place,Hamlet,Village,Point
 Place,Town,Towns,Point
 Place,Village,Village,Point
 Place,Suburb,Village,Point
@@ -62,14 +62,14 @@ Man-Made,Mast,Windmasts,Point
 Man-Made,Petroleum well,Building,Point
 Man-Made,Tower,Building,Point
 Airport,Name,Airports,Point
-Aeroway,Aerodrome ,Airports,Point
+Aeroway,Aerodrome,Airports,Point
 Aeroway,Helipad,Airports,Point
 Railway,Level Crossing,IGNORE,Point
 Railway,Station,Building,Point
 Traffic Calming,Hump,IGNORE,Point
 Military,"Naval Base, Check Point",Building,Point
 Historic,Monument,Building,Point
-Natural ,Peak,IGNORE,Point
+Natural,Peak,IGNORE,Point
 Tourism,Hotel,Building,Point
 Tourism,Viewpoint,Tourist Places,Point
 Shop,Hardware,Urban Areas,Area
@@ -88,18 +88,18 @@ Landuse,Industrial,Land Environments,Area
 Landuse,Orchard,Land Environments,Area
 Landuse,Residential,Residential Areas,Area
 Landuse,Military,Military,Area
-Landuse,Commercial ,Land Environments,Area
+Landuse,Commercial,Land Environments,Area
 Landuse,Silo,Land Environments,Area
 Landuse,Farmyard,Land Environments,Area
 Landuse,Cemetery,Land Environments,Area
 Landuse,Meadow,Land Environments,Area
-Amenity,Clinic ,Building,Point
+Amenity,Clinic,Building,Point
 Amenity,Police,Building,Point
 Amenity,Place of worship,Building,Point
 Amenity,School,Building,Point
 Amenity,Restaurant,Building,Point
 Amenity,Taxi,Building,Point
-Amenity,Parking ,Urban Areas,Area
+Amenity,Parking,Urban Areas,Area
 Amenity,Fire Station,Urban Areas,Area
 Amenity,School,Urban Areas,Area
 Amenity,Place of worship,Urban Areas,Area
@@ -113,7 +113,7 @@ Amenity,Dentist,Urban Areas,Area
 Amenity,Fuel,Urban Areas,Area
 Amenity,Pharmacy,Urban Areas,Area
 Amenity,University,Urban Areas,Area
-Building,Residential ,Settlements,Area
+Building,Residential,Settlements,Area
 Building,Hospital,Settlements,Area
 Building,School,Settlements,Area
 Building,Apartment,Settlements,Area
@@ -122,9 +122,9 @@ Building,Commercial,Settlements,Area
 Building,Roof,Settlements,Area
 Building,Industrial,Settlements,Area
 Office,Government,Urban Areas,Area
-Office, Estate Agent,Urban Areas,Area
+Office,Estate Agent,Urban Areas,Area
 Leaftype,Needleleaved,Natural Features,Area
-Leaftype,Leafless ,Natural Features,Area
+Leaftype,Leafless,Natural Features,Area
 Leaftype,Broadleaved,Natural Features,Area
 Leaftype,Mixed,Natural Features,Area
 Leisure,Playground,IGNORE,Area
