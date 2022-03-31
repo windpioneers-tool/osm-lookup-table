@@ -24,7 +24,7 @@
       "line": [
         {
           "key": "railway",
-          "value": "((\\bLine\\b)|(\\bRail\\b))|(\\bAbandoned\\b)"
+          "value": "((\bLine\b)|(\bRail\b))|(\bAbandoned\b)"
         }
       ]
     }
