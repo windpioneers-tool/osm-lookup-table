@@ -8,7 +8,7 @@
       "point": [
         {
           "key": "Shop",
-          "value": "*"
+          "pattern": "*"
         },
         {
           "key": "Amenity",
@@ -24,7 +24,7 @@
       "line": [
         {
           "key": "railway",
-          "value": "((\bLine\b)|(\bRail\b))|(\bAbandoned\b)"
+          "pattern": "((\bLine\b)|(\bRail\b))|(\bAbandoned\b)"
         }
       ]
     }
@@ -36,7 +36,7 @@
       "polygon": [
         {
           "key": "Shop",
-          "value": "*"
+          "pattern": "*"
         }
       ]
     }
