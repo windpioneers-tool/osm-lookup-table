@@ -53,7 +53,7 @@ Aeroway,Runway,Airspace,Line
 Service,Parking Aisle,IGNORE,Line
 Place,Locality,Villages,Point
 Place,Hamlet,Villages,Point
-Place,Town,Towns,Point
+Place,Town,Settlements,Point
 Place,Village,Villages,Point
 Place,Suburb,Villages,Point
 Power,Tower,Substations,Point
