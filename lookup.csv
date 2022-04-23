@@ -16,20 +16,20 @@ Highway,Turning Circle,IGNORE,Point
 Highway,Crossing,IGNORE,Point
 Highway,Traffic Signal,IGNORE,Point
 Highway,Turning Loop,IGNORE,Point
-Admin Boundaries/ Admin level,v = 1 - 10,Boundary,Line
+Admin Boundaries/ Admin level,v = 1 - 10,Border,Line
 Power,Line,Grid,Line
-Natural,Water,Natural Features,Area
-Natural,Mud,Natural Features,Area
+Natural,Water,Lakes,Area
+Natural,Mud,IGNORE,Area
 Natural,Wood,Natural Features,Area
-Natural,Coastline,Natural Features,Area
+Natural,Coastline,Coastline,Area
 Natural,Bare Rock,Natural Features,Area
-Natural,Sand,Natural Features,Area
+Natural,Sand,IGNORE,Area
 Natural,Wetland,Natural Features,Area
-Natural,Beach,Natural Features,Area
-Natural,Scrub,Natural Features,Area
-Natural,Bare Rock,Natural Features,Area
-Natural,Grassland,Natural Features,Area
-Natural,Coastline,Boundary,Line
+Natural,Beach,IGNORE,Area
+Natural,Scrub,IGNORE,Area
+Natural,Bare Rock,IGNORE,Area
+Natural,Grassland,IGNORE,Area
+Natural,Coastline,Coastline,Line
 Natural,Tree row,IGNORE,Line
 Natural,Ridge,IGNORE,Line
 Barrier,"Fence, Wall",IGNORE,Line
@@ -38,13 +38,13 @@ Barrier,Gate,IGNORE,Point
 Barrier,Border Control,IGNORE,Point
 Railway,Line,Railways,Line
 Railway,Rail,Railways,Line
-Railway,Abandoned,Railways,Line
+Railway,Abandoned,IGNORE,Line
 Waterway,River,Rivers,Line
 Waterway,Stream,Stream,Line
 Waterway,Canal,Canals,Line
 Waterway,Drain,IGNORE,Line
 Waterway,River,Lakes,Area
-Man-Made,Bridge,Bridge Route,Line
+Man-Made,Bridge,Bridge,Line
 Man-Made,Pier,Bridge Route,Line
 Man-Made,Cutline,Bridge Route,Line
 Boundary,Postal Code,Boundary,Line
@@ -59,15 +59,15 @@ Place,Suburb,Villages,Point
 Power,Tower,Substations,Point
 Power,Pole,Substations,Point
 Man-Made,Mast,Windmasts,Point
-Man-Made,Petroleum well,Building,Point
-Man-Made,Tower,Building,Point
+Man-Made,Petroleum well,Buildings,Point
+Man-Made,Tower,Buildings,Point
 Airport,Name,Airports,Point
 Aeroway,Aerodrome,Airports,Point
 Aeroway,Helipad,Airports,Point
 Railway,Level Crossing,IGNORE,Point
 Railway,Station,Buildings,Point
 Traffic Calming,Hump,IGNORE,Point
-Military,"Naval Base, Check Point",Building,Point
+Military,"Naval Base, Check Point",Military Areas,Point
 Historic,Monument,Buildings,Point
 Natural,Peak,IGNORE,Point
 Tourism,Hotel,Buildings,Point
@@ -100,41 +100,41 @@ Amenity,School,Buildings,Point
 Amenity,Restaurant,Buildings,Point
 Amenity,Taxi,Buildings,Point
 Amenity,Parking,Urban Areas,Area
-Amenity,Fire Station,Urban Areas,Area
-Amenity,School,Urban Areas,Area
-Amenity,Place of worship,Urban Areas,Area
-Amenity,Clinic,Urban Areas,Area
-Amenity,Hospital,Urban Areas,Area
-Amenity,Post Office,Urban Areas,Area
-Amenity,Public Building,Urban Areas,Area
-Amenity,Bus Station,Urban Areas,Area
-Amenity,School,Urban Areas,Area
-Amenity,Dentist,Urban Areas,Area
-Amenity,Fuel,Urban Areas,Area
-Amenity,Pharmacy,Urban Areas,Area
-Amenity,University,Urban Areas,Area
-Building,Residential,Settlements,Area
-Building,Hospital,Settlements,Area
-Building,School,Settlements,Area
-Building,Apartment,Settlements,Area
-Building,Public,Settlements,Area
-Building,Commercial,Settlements,Area
-Building,Roof,Settlements,Area
-Building,Industrial,Settlements,Area
-Office,Government,Urban Areas,Area
-Office,Estate Agent,Urban Areas,Area
-Leaftype,Needleleaved,Natural Features,Area
-Leaftype,Leafless,Natural Features,Area
-Leaftype,Broadleaved,Natural Features,Area
-Leaftype,Mixed,Natural Features,Area
-Leisure,Playground,IGNORE,Area
-Leisure,Park,IGNORE,Area
-Leisure,Pitch,IGNORE,Area
-Leisure,Swimming Pool,IGNORE,Area
-Leisure,Stadium,IGNORE,Area
-Leisure,Horseriding,IGNORE,Area
-Sport,Soccer,IGNORE,Area
-Sport,Basketball,IGNORE,Area
+Amenity,Fire Station,Buildings,Point
+Amenity,School,Buildings,Point
+Amenity,Place of worship,Buildings,Point
+Amenity,Clinic,Buildings,Point
+Amenity,Hospital,Buildings,Point
+Amenity,Post Office,Buildings,Point
+Amenity,Public Building,Buildings,Point
+Amenity,Bus Station,Buildings,Point
+Amenity,School,Buildings,Point
+Amenity,Dentist,Buildings,Point
+Amenity,Fuel,Buildings,Point
+Amenity,Pharmacy,Buildings,Point
+Amenity,University,Buildings,Point
+Building,Residential,Buildings,Point
+Building,Hospital,Buildings,Point
+Building,School,Buildings,Point
+Building,Apartment,Buildings,Point
+Building,Public,Buildings,Point
+Building,Commercial,Buildings,Point
+Building,Roof,Buildings,Point
+Building,Industrial,Buildings,Point
+Office,Government,Buildings,Point
+Office,Estate Agent,Buildings,Point
+Leaftype,Needleleaved,Forest,Area
+Leaftype,Leafless,Forest,Area
+Leaftype,Broadleaved,Forest,Area
+Leaftype,Mixed,Forest,Area
+Leisure,Playground,Tourist Places,Point
+Leisure,Park,Tourist Places,Point
+Leisure,Pitch,Tourist Places,Point
+Leisure,Swimming Pool,Tourist Places,Point
+Leisure,Stadium,Tourist Places,Point
+Leisure,Horseriding,Tourist Places,Point
+Sport,Soccer,Tourist Places,Point
+Sport,Basketball,Tourist Places,Point
 Historic,Memorial,Cultural Sites,Area
 Historic,Monument,Cultural Sites,Area
-Tourism,attraction,Cultural Sites,Area
+Tourism,attraction,Tourist Places,Point
