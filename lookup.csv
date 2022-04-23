@@ -36,9 +36,9 @@ Barrier,"Fence, Wall",IGNORE,Line
 Barrier,Cattle Grid,IGNORE,Point
 Barrier,Gate,IGNORE,Point
 Barrier,Border Control,IGNORE,Point
-Railway,Line,Railway,Line
-Railway,Rail,Railway,Line
-Railway,Abandoned,Railway,Line
+Railway,Line,Railways,Line
+Railway,Rail,Railways,Line
+Railway,Abandoned,Railways,Line
 Waterway,River,Rivers,Line
 Waterway,Stream,Stream,Line
 Waterway,Canal,Canals,Line
