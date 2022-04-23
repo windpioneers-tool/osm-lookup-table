@@ -65,21 +65,21 @@ Airport,Name,Airports,Point
 Aeroway,Aerodrome,Airports,Point
 Aeroway,Helipad,Airports,Point
 Railway,Level Crossing,IGNORE,Point
-Railway,Station,Building,Point
+Railway,Station,Buildings,Point
 Traffic Calming,Hump,IGNORE,Point
 Military,"Naval Base, Check Point",Building,Point
-Historic,Monument,Building,Point
+Historic,Monument,Buildings,Point
 Natural,Peak,IGNORE,Point
-Tourism,Hotel,Building,Point
+Tourism,Hotel,Buildings,Point
 Tourism,Viewpoint,Tourist Places,Point
 Shop,Hardware,Urban Areas,Area
 Shop,Wholescale,Urban Areas,Area
 Shop,Car,Urban Areas,Area
 Shop,Electronics,Urban Areas,Area
 Shop,Mall,Urban Areas,Area
-Shop,Supermarket,Building,Point
-Shop,Convenience,Building,Point
-Shop,Electronics,Building,Point
+Shop,Supermarket,Buildings,Point
+Shop,Convenience,Buildings,Point
+Shop,Electronics,Buildings,Point
 Population,Number,IGNORE,Point
 Population,Year,IGNORE,Point
 Landuse,Forest,Forest,Area
@@ -93,12 +93,12 @@ Landuse,Silo,Land Environments,Area
 Landuse,Farmyard,Land Environments,Area
 Landuse,Cemetery,Land Environments,Area
 Landuse,Meadow,Land Environments,Area
-Amenity,Clinic,Building,Point
-Amenity,Police,Building,Point
+Amenity,Clinic,Buildings,Point
+Amenity,Police,Buildings,Point
 Amenity,Place of worship,Building,Point
-Amenity,School,Building,Point
-Amenity,Restaurant,Building,Point
-Amenity,Taxi,Building,Point
+Amenity,School,Buildings,Point
+Amenity,Restaurant,Buildings,Point
+Amenity,Taxi,Buildings,Point
 Amenity,Parking,Urban Areas,Area
 Amenity,Fire Station,Urban Areas,Area
 Amenity,School,Urban Areas,Area
