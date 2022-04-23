@@ -51,11 +51,11 @@ Boundary,Postal Code,Boundary,Line
 Aeroway,Taxiway,Airspace,Line
 Aeroway,Runway,Airspace,Line
 Service,Parking Aisle,IGNORE,Line
-Place,Locality,Village,Point
-Place,Hamlet,Village,Point
+Place,Locality,Villages,Point
+Place,Hamlet,Villages,Point
 Place,Town,Towns,Point
-Place,Village,Village,Point
-Place,Suburb,Village,Point
+Place,Village,Villages,Point
+Place,Suburb,Villages,Point
 Power,Tower,Substation,Point
 Power,Pole,Substation,Point
 Man-Made,Mast,Windmasts,Point
