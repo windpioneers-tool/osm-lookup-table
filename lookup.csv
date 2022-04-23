@@ -56,8 +56,8 @@ Place,Hamlet,Villages,Point
 Place,Town,Towns,Point
 Place,Village,Villages,Point
 Place,Suburb,Villages,Point
-Power,Tower,Substation,Point
-Power,Pole,Substation,Point
+Power,Tower,Substations,Point
+Power,Pole,Substations,Point
 Man-Made,Mast,Windmasts,Point
 Man-Made,Petroleum well,Building,Point
 Man-Made,Tower,Building,Point
