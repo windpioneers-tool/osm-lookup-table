@@ -114,8 +114,8 @@ Place,Villages,Villages,Area
 Power,Tower,Substation,Point
 Power,Pole,Transmission Pole,Point
 Man-Made,Mast,Windmasts,Point
-Man-Made,Petroleum well,Buildings,Point
-Man-Made,Tower,Buildings,Point
+Man-Made,Petroleum well,Building,Point
+Man-Made,Tower,Building,Point
 Airport,Name,Airports,Point
 Aeroway,Aerodrome ,Airports,Point
 Aeroway,Helipad,Airports,Point
