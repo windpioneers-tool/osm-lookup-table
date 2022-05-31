@@ -1,9 +1,9 @@
 OSM Tags,OSM Values,Constraint Name,Constraint Type
 Highway,Primary,Primary Roads,Line
 Highway,Secondary,Secondary Roads,Line
-Highway,Tertiary ,Roads,Line
+Highway,Tertiary,Roads,Line
 Highway,Unclassified,Roads,Line
-Highway,Path ,Roads,Line
+Highway,Path,Roads,Line
 Highway,Trunk,Roads,Line
 Highway,Service,Roads,Line
 Highway,Residential,Roads,Line
@@ -40,8 +40,8 @@ Busway,Lane,Roads,Line
 Highway,Proposed,IGNORE,Line
 Highway,Construction,Roads,Line
 Highway,Platform,IGNORE,Line
-Highway,Bus Stop ,IGNORE,Point
-Highway,Turning Circle ,IGNORE,Point
+Highway,Bus Stop,IGNORE,Point
+Highway,Turning Circle,IGNORE,Point
 Highway,Crossing,IGNORE,Point
 Highway,Traffic Signal,IGNORE,Point
 Highway,Elevator,IGNORE,Point
@@ -79,19 +79,19 @@ admin_level,9,Admin Boundary,Line
 admin_level,10,Admin Boundary,Line
 admin_level,11,Admin Boundary,Line
 Power,Line,Grid,Line
-Natural ,Water,Water Area,Area
-Natural ,Mud,Natural Features,Area
-Natural ,Wood,Forest Area,Area
-Natural ,Coastline,Natural Features,Area
-Natural ,Bare Rock,Natural Features,Area
-Natural ,Sand,Natural Features,Area
-Natural ,Wetland ,Natural Features,Area
-Natural ,Beach,Natural Features,Area
-Natural ,Scrub,Natural Features,Area
-Natural ,Grassland,Forest Area,Area
-Natural ,Coastline,Boundary,Line
-Natural ,Tree row,IGNORE,Line
-Natural ,Ridge,Mountain Ridge,Line
+Natural,Water,Water Area,Area
+Natural,Mud,Natural Features,Area
+Natural,Wood,Forest Area,Area
+Natural,Coastline,Natural Features,Area
+Natural,Bare Rock,Natural Features,Area
+Natural,Sand,Natural Features,Area
+Natural,Wetland,Natural Features,Area
+Natural,Beach,Natural Features,Area
+Natural,Scrub,Natural Features,Area
+Natural,Grassland,Forest Area,Area
+Natural,Coastline,Boundary,Line
+Natural,Tree row,IGNORE,Line
+Natural,Ridge,Mountain Ridge,Line
 Barrier,"Fence, Wall",IGNORE,Line
 Barrier,Cattle Grid,IGNORE,Point
 Barrier,Gate,IGNORE,Point
@@ -115,11 +115,11 @@ Aeroway,Apron,Airport Area,Area
 Amenity,Marketplace,IGNORE,Line
 Service,Parking Aisle,IGNORE,Line
 Place,Locality,Villages,Point
-Place,Hamlet ,Villages,Point
+Place,Hamlet,Villages,Point
 Place,Town,Villages,Point
 Place,Villages,Villages,Point
 Place,Suburb,Villages,Point
-Place ,Town,Urban Areas,Area
+Place,Town,Urban Areas,Area
 Place,Villages,Urban Areas,Area
 Power,Tower,Substation,Point
 Power,Pole,Transmission Pole,Point
@@ -127,14 +127,14 @@ Man-Made,Mast,Windmasts,Point
 Man-Made,Petroleum well,Buildings,Point
 Man-Made,Tower,Buildings,Point
 Airport,Name,Airports,Point
-Aeroway,Aerodrome ,Airports,Point
+Aeroway,Aerodrome,Airports,Point
 Aeroway,Helipad,Airports,Point
 Railways,Level Crossing,IGNORE,Point
 Railways,station,Buildings,Point
 Traffic Calming,Hump,IGNORE,Point
 Military,"Naval Base, Check Point",Buildings,Point
 Historic,Monument,Buildings,Point
-Natural ,Peak,Mountain Peak,Point
+Natural,Peak,Mountain Peak,Point
 Tourism,Hotel,Buildings,Point
 Tourism,Viewpoint,Tourist Point,Point
 Shop,Hardware,Urban Areas,Area
@@ -151,10 +151,10 @@ Landuse,Forest,Forest Area,Area
 Landuse,Industrial,Urban Areas,Area
 Landuse,Residential,Urban Areas,Area
 Landuse,Military,Military,Area
-Landuse,Commercial ,Urban Areas,Area
+Landuse,Commercial,Urban Areas,Area
 Landuse,Silo,Urban Areas,Area
 Landuse,Cemetery,Cemetery Area,Area
-Amenity,Clinic ,Buildings,Point
+Amenity,Clinic,Buildings,Point
 Amenity,Bar,Buildings,Point
 Amenity,Biergarten,Buildings,Point
 Amenity,Police,Buildings,Point
@@ -222,7 +222,7 @@ Amenity,Monastery,Buildings,Point
 Amenity,Funeral Hall,Buildings,Point
 Amenity,Restaurant,Buildings,Point
 Amenity,Taxi,Buildings,Point
-Amenity,Parking ,Urban Areas,Area
+Amenity,Parking,Urban Areas,Area
 Amenity,Bar,Urban Areas,Area
 Amenity,Fire Station,Urban Areas,Area
 Amenity,Biergarten,Urban Areas,Area
@@ -281,7 +281,7 @@ Amenity,Funeral Hall,Urban Areas,Area
 Amenity,Internet Cafe,Urban Areas,Area
 Amenity,Kitchen,Urban Areas,Area
 Amenity,Marketplace,Urban Areas,Area
-Buildings,Residential ,Urban Areas,Area
+Buildings,Residential,Urban Areas,Area
 Buildings,Yes,Urban Areas,Area
 Buildings,Bungalow,Urban Areas,Area
 Buildings,Cabin,Urban Areas,Area
@@ -321,7 +321,7 @@ Buildings,Industrial,Urban Areas,Area
 Office,Government,Urban Areas,Area
 Office,Estate Agent,Urban Areas,Area
 Leaftype,Needleleaved,Trees,Area
-Leaftype,Leafless ,Trees,Area
+Leaftype,Leafless,Trees,Area
 Leaftype,Broadleaved,Trees,Area
 Leaftype,Mixed,Trees,Area
 Leisure,Playground,IGNORE,Area
@@ -516,7 +516,7 @@ Waterway,River,River Area,Area
 Landuse,Residential,Residential,Point
 Landuse,port,Port,Point
 Boundary,national_park,National Park,Point
-Natural ,Water,Lakes,Point
+Natural,Water,Lakes,Point
 voltage,8,TV_8,Line
 voltage,8kV,TV_8,Line
 voltage,8000,TV_8,Line
