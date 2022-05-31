@@ -1,14 +1,14 @@
 OSM Tags,OSM Values,Constraint Name,Constraint Type
 Highway,Primary,Primary Roads,Line
 Highway,Secondary,Secondary Roads,Line
-Highway,Tertiary,Tertiary Roads,Line
+Highway,Tertiary,Roads,Line
 Highway,Unclassified,Roads,Line
 Highway,Path,Roads,Line
 Highway,Trunk,Roads,Line
 Highway,Service,Roads,Line
 Highway,Residential,Roads,Line
-Highway,Path,Tracks,Line
-Highway,Track,Tracks,Line
+Highway,Path,Roads,Line
+Highway,Track,Roads,Line
 Highway,Cycleway,IGNORE,Line
 Highway,Footway,IGNORE,Line
 Highway,Motorway,Roads,Line
@@ -17,7 +17,7 @@ Highway,Lanes,IGNORE,Line
 Highway,Trunk Link,Roads,Line
 Highway,Primary Link,Primary Roads,Line
 Highway,Secondary Link,Secondary Roads,Line
-Highway,Tertiary Link,Tertiary Roads,Line
+Highway,Tertiary Link,Roads,Line
 Highway,Living Street,IGNORE,Line
 Highway,Pedastrian,IGNORE,Line
 Highway,Escape,IGNORE,Line
@@ -67,18 +67,28 @@ Highway,Turning Loop,IGNORE,Point
 Highway,Rest Area,IGNORE,Area
 Highway,services,IGNORE,Area
 Highway,Platform,IGNORE,Area
-Admin Boundaries/ Admin level,v = 1 - 10,Admin Boundary,Line
+admin_level,1,Admin Boundary,Line
+admin_level,2,Admin Boundary,Line
+admin_level,3,Admin Boundary,Line
+admin_level,4,Admin Boundary,Line
+admin_level,5,Admin Boundary,Line
+admin_level,6,Admin Boundary,Line
+admin_level,7,Admin Boundary,Line
+admin_level,8,Admin Boundary,Line
+admin_level,9,Admin Boundary,Line
+admin_level,10,Admin Boundary,Line
+admin_level,11,Admin Boundary,Line
 Power,Line,Grid,Line
 Natural,Water,Water Area,Area
-Natural,Mud,Sandy Soil,Area
-Natural,Wood,Trees,Area
-Natural,Coastline,Sandy Soil,Area
+Natural,Mud,Natural Features,Area
+Natural,Wood,Forest Area,Area
+Natural,Coastline,Natural Features,Area
 Natural,Bare Rock,Natural Features,Area
-Natural,Sand,Sandy Soil,Area
+Natural,Sand,Natural Features,Area
 Natural,Wetland,Natural Features,Area
-Natural,Beach,Sandy Soil,Area
-Natural,Scrub,Bare Areas,Area
-Natural,Grassland,Grassland,Area
+Natural,Beach,Natural Features,Area
+Natural,Scrub,Natural Features,Area
+Natural,Grassland,Forest Area,Area
 Natural,Coastline,Boundary,Line
 Natural,Tree row,IGNORE,Line
 Natural,Ridge,Mountain Ridge,Line
@@ -89,9 +99,9 @@ Barrier,Border Control,Buildings,Point
 Railways,Line,Railways,Line
 Railways,Rail,Railways,Line
 Railways,Abandoned,Railways,Line
-Waterway,River,Rivers,Line
-Waterway,Stream,Stream,Line
-Waterway,Canal,Canals,Line
+Waterway,River,In-land water,Line
+Waterway,Stream,In-land water,Line
+Waterway,Canal,In-land water,Line
 Waterway,Drain,IGNORE,Line
 Man-Made,Bridge,Bridge Route,Line
 Man-Made,Pier,Tourist Area,Area
@@ -106,11 +116,11 @@ Amenity,Marketplace,IGNORE,Line
 Service,Parking Aisle,IGNORE,Line
 Place,Locality,Villages,Point
 Place,Hamlet,Villages,Point
-Place,Town,Towns,Point
+Place,Town,Villages,Point
 Place,Villages,Villages,Point
 Place,Suburb,Villages,Point
 Place,Town,Urban Areas,Area
-Place,Villages,Villages,Area
+Place,Villages,Urban Areas,Area
 Power,Tower,Substation,Point
 Power,Pole,Transmission Pole,Point
 Man-Made,Mast,Windmasts,Point
@@ -138,11 +148,11 @@ Shop,Electronics,Buildings,Point
 Population,Number,IGNORE,Point
 Population,Year,IGNORE,Point
 Landuse,Forest,Forest Area,Area
-Landuse,Industrial,Factory,Area
-Landuse,Residential,Residential Areas,Area
+Landuse,Industrial,Urban Areas,Area
+Landuse,Residential,Urban Areas,Area
 Landuse,Military,Military,Area
-Landuse,Commercial,Land Environments,Area
-Landuse,Silo,Factory,Area
+Landuse,Commercial,Urban Areas,Area
+Landuse,Silo,Urban Areas,Area
 Landuse,Cemetery,Cemetery Area,Area
 Amenity,Clinic,Buildings,Point
 Amenity,Bar,Buildings,Point
@@ -170,7 +180,7 @@ Amenity,Veterinary,Buildings,Point
 Amenity,Hospital,Buildings,Point
 Amenity,Cinema,Buildings,Point
 Amenity,Post Box,Buildings,Point
-Amenity,Refugee Site,Habitations,Point
+Amenity,Refugee Site,Buildings,Point
 Amenity,Nursing Home,Buildings,Point
 Amenity,Pharmacy,Buildings,Point
 Amenity,Social Facility,Buildings,Point
@@ -243,51 +253,51 @@ Amenity,Dentist,Urban Areas,Area
 Amenity,Fuel,Urban Areas,Area
 Amenity,Pharmacy,Urban Areas,Area
 Amenity,Social Facility,Urban Areas,Area
-Amenity,Arts Centre,Settlements,Area
+Amenity,Arts Centre,Urban Areas,Area
 Amenity,Casino,Urban Areas,Area
-Amenity,Community Centre,Settlements,Area
+Amenity,Community Centre,Urban Areas,Area
 Amenity,Conference Centre,Urban Areas,Area
 Amenity,Events Venue,Urban Areas,Area
 Amenity,Fountain,IGNORE,Area
 Amenity,Nightclub,Urban Areas,Area
 Amenity,Planetarium,Urban Areas,Area
-Amenity,Social Centre,Settlements,Area
-Amenity,Studio,Settlements,Area
-Amenity,Theatre,Settlements,Area
-Amenity,Courthouse,Settlements,Area
+Amenity,Social Centre,Urban Areas,Area
+Amenity,Studio,Urban Areas,Area
+Amenity,Theatre,Urban Areas,Area
+Amenity,Courthouse,Urban Areas,Area
 Amenity,Police,Urban Areas,Area
-Amenity,Post Box,Settlements,Area
-Amenity,Post Depot,Settlements,Area
-Amenity,Townhall,Settlements,Area
-Amenity,Shelter,Settlements,Area
-Amenity,Recycling,Settlements,Area
+Amenity,Post Box,Urban Areas,Area
+Amenity,Post Depot,Urban Areas,Area
+Amenity,Townhall,Urban Areas,Area
+Amenity,Shelter,Urban Areas,Area
+Amenity,Recycling,Urban Areas,Area
 Amenity,Animal Boarding,IGNORE,Area
 Amenity,Animal Breeding,IGNORE,Area
-Amenity,Animal Shelter,Settlements,Area
-Amenity,Childcare,Settlements,Area
-Amenity,Crematorium,Building Area,Area
+Amenity,Animal Shelter,Urban Areas,Area
+Amenity,Childcare,Urban Areas,Area
+Amenity,Crematorium,Urban Areas,Area
 Amenity,Dive Centre,IGNORE,Area
-Amenity,Funeral Hall,Settlements,Area
-Amenity,Internet Cafe,Settlements,Area
-Amenity,Kitchen,Settlements,Area
-Amenity,Marketplace,Settlements,Area
-Buildings,Residential,Settlements,Area
-Buildings,Yes,Settlements,Area
-Buildings,Bungalow,Settlements,Area
-Buildings,Cabin,Settlements,Area
-Buildings,Apartment,Settlements,Area
+Amenity,Funeral Hall,Urban Areas,Area
+Amenity,Internet Cafe,Urban Areas,Area
+Amenity,Kitchen,Urban Areas,Area
+Amenity,Marketplace,Urban Areas,Area
+Buildings,Residential,Urban Areas,Area
+Buildings,Yes,Urban Areas,Area
+Buildings,Bungalow,Urban Areas,Area
+Buildings,Cabin,Urban Areas,Area
+Buildings,Apartment,Urban Areas,Area
 Buildings,Hospital,Urban Areas,Area
-Buildings,Dormitory,Settlements,Area
-Buildings,Farm,Settlements,Area
-Buildings,Hotel,Settlements,Area
-Buildings,House,Settlements,Area
-Buildings,Houseboat,Settlements,Area
-Buildings,Terrace,Settlements,Area
-Buildings,Kiosk,Settlements,Area
+Buildings,Dormitory,Urban Areas,Area
+Buildings,Farm,Urban Areas,Area
+Buildings,Hotel,Urban Areas,Area
+Buildings,House,Urban Areas,Area
+Buildings,Houseboat,Urban Areas,Area
+Buildings,Terrace,Urban Areas,Area
+Buildings,Kiosk,Urban Areas,Area
 Buildings,Office,Urban Areas,Area
-Buildings,Retail,Settlements,Area
+Buildings,Retail,Urban Areas,Area
 Buildings,Supermarket,Urban Areas,Area
-Buildings,Warehouse,Settlements,Area
+Buildings,Warehouse,Urban Areas,Area
 Buildings,cathedral,Religious Building Area,Area
 Buildings,chapel,Religious Building Area,Area
 Buildings,church,Religious Building Area,Area
@@ -301,13 +311,13 @@ Buildings,synagogue,Religious Building Area,Area
 Buildings,temple,Religious Building Area,Area
 Buildings,Bridge,IGNORE,Area
 Buildings,Military,Military,Area
-Buildings,Roof,Settlements,Area
+Buildings,Roof,Urban Areas,Area
 Buildings,School,Urban Areas,Area
-Buildings,Apartment,Settlements,Area
-Buildings,Public,Settlements,Area
-Buildings,Commercial,Settlements,Area
-Buildings,Roof,Settlements,Area
-Buildings,Industrial,Settlements,Area
+Buildings,Apartment,Urban Areas,Area
+Buildings,Public,Urban Areas,Area
+Buildings,Commercial,Urban Areas,Area
+Buildings,Roof,Urban Areas,Area
+Buildings,Industrial,Urban Areas,Area
 Office,Government,Urban Areas,Area
 Office,Estate Agent,Urban Areas,Area
 Leaftype,Needleleaved,Trees,Area
@@ -319,47 +329,47 @@ Leisure,Park,IGNORE,Area
 Leisure,Pitch,IGNORE,Area
 Leisure,Swimming Pool,IGNORE,Area
 Leisure,Stadium,IGNORE,Area
-Leisure,adult_gaming_centre,Building Area,Area
+Leisure,adult_gaming_centre,Urban Areas,Area
 Leisure,adult_gaming_centre,Buildings,Point
 Leisure,amusement_arcade,Buildings,Point
-Leisure,amusement_arcade,Building Area,Area
-Leisure,beach_resort,Building Area,Area
+Leisure,amusement_arcade,Urban Areas,Area
+Leisure,beach_resort,Urban Areas,Area
 Leisure,beach_resort,Buildings,Point
 Leisure,bandstand,Buildings,Point
-Leisure,bandstand,Building Area,Area
-Leisure,bird_hide,Building Area,Area
+Leisure,bandstand,Urban Areas,Area
+Leisure,bird_hide,Urban Areas,Area
 Leisure,bird_hide,Buildings,Point
 Leisure,common,Buildings,Point
-Leisure,common,Building Area,Area
+Leisure,common,Urban Areas,Area
 Leisure,dance,Buildings,Point
-Leisure,dance,Building Area,Area
-Leisure,disc_golf_course,Building Area,Area
+Leisure,dance,Urban Areas,Area
+Leisure,disc_golf_course,Urban Areas,Area
 Leisure,disc_golf_course,Buildings,Point
 Leisure,dog_park,Buildings,Point
-Leisure,dog_park,Building Area,Area
-Leisure,escape_game,Building Area,Area
+Leisure,dog_park,Urban Areas,Area
+Leisure,escape_game,Urban Areas,Area
 Leisure,escape_game,Buildings,Point
-Leisure,firepit,Building Area,Area
+Leisure,firepit,Urban Areas,Area
 Leisure,firepit,Buildings,Point
-Leisure,fishing,Building Area,Area
+Leisure,fishing,Urban Areas,Area
 Leisure,fishing,Buildings,Point
-Leisure,fitness_centre,Building Area,Area
+Leisure,fitness_centre,Urban Areas,Area
 Leisure,fitness_centre,Buildings,Point
-Leisure,fitness_station,Building Area,Area
+Leisure,fitness_station,Urban Areas,Area
 Leisure,fitness_station,Buildings,Point
-Leisure,garden,Building Area,Area
+Leisure,garden,Urban Areas,Area
 Leisure,garden,Buildings,Point
-Leisure,hackerspace,Building Area,Area
+Leisure,hackerspace,Urban Areas,Area
 Leisure,hackerspace,Buildings,Point
-Leisure,horse_riding,Building Area,Area
+Leisure,horse_riding,Urban Areas,Area
 Leisure,horse_riding,Buildings,Point
-Leisure,ice_rink,Building Area,Area
+Leisure,ice_rink,Urban Areas,Area
 Leisure,ice_rink,Buildings,Point
-Leisure,marina,Building Area,Area
+Leisure,marina,Urban Areas,Area
 Leisure,marina,Buildings,Point
-Leisure,miniature_golf,Building Area,Area
+Leisure,miniature_golf,Urban Areas,Area
 Leisure,miniature_golf,Buildings,Point
-Leisure,nature_reserve,Building Area,Area
+Leisure,nature_reserve,Urban Areas,Area
 Leisure,nature_reserve,Buildings,Point
 Leisure,Horseriding,IGNORE,Area
 Sport,Soccer,IGNORE,Area
@@ -444,31 +454,31 @@ Boundary,postal_code,IGNORE,Area
 Boundary,protected_area,Protected Area,Area
 Boundary,special_economic_zone,SEZ,Area
 Boundary,disputed,IGNORE,Area
-Landuse,commercial,Building Area,Area
+Landuse,commercial,Urban Areas,Area
 Landuse,commercial,Buildings,Point
 Landuse,construction,Buildings,Point
-Landuse,construction,Building Area,Area
-Landuse,education,Building Area,Area
+Landuse,construction,Urban Areas,Area
+Landuse,education,Urban Areas,Area
 Landuse,education,Buildings,Point
 Landuse,industrial,Buildings,Point
-Landuse,industrial,Building Area,Area
-Landuse,residential,Building Area,Area
+Landuse,industrial,Urban Areas,Area
+Landuse,residential,Urban Areas,Area
 Landuse,residential,Buildings,Point
 Landuse,retail,Buildings,Point
-Landuse,retail,Building Area,Area
-Landuse,allotments,Building Area,Area
+Landuse,retail,Urban Areas,Area
+Landuse,allotments,Urban Areas,Area
 Landuse,allotments,Buildings,Point
-Landuse,farmland,Land Environments,Area
-Landuse,farmyard,Land Environments,Area
+Landuse,farmland,Urban Areas,Area
+Landuse,farmyard,Urban Areas,Area
 Landuse,flowerbed,Tourist Area,Area
 Landuse,forest,Forest Area,Area
 Landuse,forest,Forests,Point
-Landuse,meadow,Meadow Point,Point
-Landuse,meadow,Grassland,Area
-Landuse,orchard,Land Environments,Area
-Landuse,orchard,Land Environments,Point
-Landuse,vineyard,Vineyards,Point
-Landuse,vineyard,Land Environments,Area
+Landuse,meadow,Forests,Point
+Landuse,meadow,Forest Area,Area
+Landuse,orchard,Forest Area,Area
+Landuse,orchard,Forests,Point
+Landuse,vineyard,Forests,Point
+Landuse,vineyard,Forest Area,Area
 Landuse,aquaculture,IGNORE,Area
 Landuse,aquaculture,IGNORE,Point
 Landuse,basin,IGNORE,Point
@@ -480,8 +490,8 @@ Landuse,depot,IGNORE,Area
 Landuse,garages,IGNORE,Area
 Landuse,grass,IGNORE,Area
 Landuse,grass,IGNORE,Point
-Landuse,greenfield,Greenfield Point,Point
-Landuse,greenfield,Grassland,Area
+Landuse,greenfield,Forests,Point
+Landuse,greenfield,Forest Area,Area
 Landuse,greenhouse_horticulture,IGNORE,Area
 Landuse,landfill,Landfill Area,Area
 Landuse,landfill,Landfill Point,Point
@@ -492,11 +502,11 @@ Landuse,port,Ports,Area
 Landuse,quarry,Quarry Area,Area
 Landuse,quarry,Quarry Point,Point
 Landuse,railway,Railway Area,Area
-Landuse,recreation_ground,Settlements,Area
+Landuse,recreation_ground,Urban Areas,Area
 Landuse,recreation_ground,Buildings,Point
 Landuse,religious,Religious Buildings,Point
 Landuse,religious,Religious Building Area,Area
-Landuse,village_green,Grassland,Area
+Landuse,village_green,Forest Area,Area
 Landuse,village_green,Villages,Point
 Landuse,winter_sports,IGNORE,Point
 Landuse,winter_sports,IGNORE,Area
@@ -507,3 +517,43 @@ Landuse,Residential,Residential,Point
 Landuse,port,Port,Point
 Boundary,national_park,National Park,Point
 Natural,Water,Lakes,Point
+voltage,8,TV_8,Line
+voltage,8kV,TV_8,Line
+voltage,8000,TV_8,Line
+voltage,8000V,TV_8,Line
+voltage,11,TV_11,Line
+voltage,11kV,TV_11,Line
+voltage,11000,TV_11,Line
+voltage,11000V,TV_11,Line
+voltage,22,TV_22,Line
+voltage,22kV,TV_22,Line
+voltage,22000,TV_22,Line
+voltage,22000V,TV_22,Line
+voltage,33,TV_33,Line
+voltage,33kV,TV_33,Line
+voltage,33000,TV_33,Line
+voltage,33000V,TV_33,Line
+voltage,44,TV_44,Line
+voltage,44kV,TV_44,Line
+voltage,44000,TV_44,Line
+voltage,44000V,TV_44,Line
+voltage,55,TV_55,Line
+voltage,55kV,TV_55,Line
+voltage,55000,TV_55,Line
+voltage,55000V,TV_55,Line
+voltage,88,TV_88,Line
+voltage,88kV,TV_88,Line
+voltage,88000,TV_88,Line
+voltage,88000V,TV_88,Line
+voltage,275,TV_275,Line
+voltage,275kV,TV_275,Line
+voltage,275000,TV_275,Line
+voltage,275000V,TV_275,Line
+voltage,500,TV_500,Line
+voltage,500kV,TV_500,Line
+voltage,500000,TV_500,Line
+voltage,500000V,TV_500,Line
+voltage,400000,TV_400,Line
+voltage,765000,TV_765,Line
+voltage,132000,TV_132,Line
+voltage,25000,TV_25,Line
