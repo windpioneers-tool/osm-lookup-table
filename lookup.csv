@@ -1,6 +1,6 @@
 OSM Tags,OSM Values,Constraint Name,Constraint Type
-Highway,Primary,Primary Roads,Line
-Highway,Secondary,Secondary Roads,Line
+Highway,Primary,Highways,Line
+Highway,Secondary,Roads,Line
 Highway,Tertiary,Roads,Line
 Highway,Unclassified,Roads,Line
 Highway,Path,Roads,Line
@@ -15,8 +15,8 @@ Highway,Motorway,Roads,Line
 Highway,Motorway Link,Roads,Line
 Highway,Lanes,IGNORE,Line
 Highway,Trunk Link,Roads,Line
-Highway,Primary Link,Primary Roads,Line
-Highway,Secondary Link,Secondary Roads,Line
+Highway,Primary Link,Highways,Line
+Highway,Secondary Link,Roads,Line
 Highway,Tertiary Link,Roads,Line
 Highway,Living Street,IGNORE,Line
 Highway,Pedastrian,IGNORE,Line
@@ -79,17 +79,17 @@ admin_level,9,Admin Boundary,Line
 admin_level,10,Admin Boundary,Line
 admin_level,11,Admin Boundary,Line
 Power,Line,Grid,Line
-Natural,Water,Water Area,Area
+Natural,Water,Natural Features,Area
 Natural,Mud,Natural Features,Area
-Natural,Wood,Forest Area,Area
+Natural,Wood,Forest,Area
 Natural,Coastline,Natural Features,Area
 Natural,Bare Rock,Natural Features,Area
 Natural,Sand,Natural Features,Area
 Natural,Wetland,Natural Features,Area
 Natural,Beach,Natural Features,Area
 Natural,Scrub,Natural Features,Area
-Natural,Grassland,Forest Area,Area
-Natural,Coastline,Boundary,Line
+Natural,Grassland,Forest,Area
+Natural,Coastline,Coastline,Line
 Natural,Tree row,IGNORE,Line
 Natural,Ridge,Mountain Ridge,Line
 Barrier,"Fence, Wall",IGNORE,Line
@@ -99,30 +99,30 @@ Barrier,Border Control,Buildings,Point
 Railways,Line,Railways,Line
 Railways,Rail,Railways,Line
 Railways,Abandoned,Railways,Line
-Waterway,River,In-land water,Line
-Waterway,Stream,In-land water,Line
-Waterway,Canal,In-land water,Line
+Waterway,River,Rivers,Line
+Waterway,Stream,Rivers,Line
+Waterway,Canal,Rivers,Line
 Waterway,Drain,IGNORE,Line
-Man-Made,Bridge,Bridge Route,Line
+Man-Made,Bridge,Roads,Line
 Man-Made,Pier,Tourist Area,Area
-Man-Made,Pier,Tourist Line,Line
+Man-Made,Pier,IGNORE,Line
 Man-Made,Cutline,IGNORE,Line
-Boundary,Postal Code,Postal Boundary,Line
+Boundary,Postal Code,IGNORE,Line
 Aeroway,Gate,IGNORE,Point
 Aeroway,Taxiway,Airspace,Line
 Aeroway,Runway,Airspace,Line
-Aeroway,Apron,Airport Area,Area
+Aeroway,Apron,IGNORE,Area
 Amenity,Marketplace,IGNORE,Line
 Service,Parking Aisle,IGNORE,Line
-Place,Locality,Villages,Point
-Place,Hamlet,Villages,Point
-Place,Town,Villages,Point
-Place,Villages,Villages,Point
-Place,Suburb,Villages,Point
+Place,Locality,Settlements,Point
+Place,Hamlet,Settlements,Point
+Place,Town,Settlements,Point
+Place,Settlements,Settlements,Point
+Place,Suburb,Settlements,Point
 Place,Town,Urban Areas,Area
-Place,Villages,Urban Areas,Area
+Place,Settlements,Urban Areas,Area
 Power,Tower,Substation,Point
-Power,Pole,Transmission Pole,Point
+Power,Pole,IGNORE,Point
 Man-Made,Mast,Windmasts,Point
 Man-Made,Petroleum well,Buildings,Point
 Man-Made,Tower,Buildings,Point
@@ -147,13 +147,13 @@ Shop,Convenience,Buildings,Point
 Shop,Electronics,Buildings,Point
 Population,Number,IGNORE,Point
 Population,Year,IGNORE,Point
-Landuse,Forest,Forest Area,Area
+Landuse,Forest,Forest,Area
 Landuse,Industrial,Urban Areas,Area
 Landuse,Residential,Urban Areas,Area
-Landuse,Military,Military,Area
+Landuse,Military,Military Area,Area
 Landuse,Commercial,Urban Areas,Area
 Landuse,Silo,Urban Areas,Area
-Landuse,Cemetery,Cemetery Area,Area
+Landuse,Cemetery,Religious Area,Area
 Amenity,Clinic,Buildings,Point
 Amenity,Bar,Buildings,Point
 Amenity,Biergarten,Buildings,Point
@@ -215,7 +215,7 @@ Amenity,Animal Shelter,Buildings,Point
 Amenity,Childcare,Buildings,Point
 Amenity,Crematorium,Buildings,Point
 Amenity,Dive Centre,Buildings,Point
-Amenity,Graveyard,Cemetery Point,Point
+Amenity,Graveyard,IGNORE,Point
 Amenity,Internet Cafe,Buildings,Point
 Amenity,Kitchen,Buildings,Point
 Amenity,Monastery,Buildings,Point
@@ -243,8 +243,8 @@ Amenity,Bank,Urban Areas,Area
 Amenity,Veterinary,Urban Areas,Area
 Amenity,Hospital,Urban Areas,Area
 Amenity,Cinema,Urban Areas,Area
-Amenity,Refugee Site,Settlements,Area
-Amenity,place_of_worship,Religious Building Area,Area
+Amenity,Refugee Site,IGNORE,Area
+Amenity,place_of_worship,Religious Area,Area
 Amenity,Clinic,Urban Areas,Area
 Amenity,Post Office,Urban Areas,Area
 Amenity,Public Buildings,Urban Areas,Area
@@ -298,19 +298,19 @@ Buildings,Office,Urban Areas,Area
 Buildings,Retail,Urban Areas,Area
 Buildings,Supermarket,Urban Areas,Area
 Buildings,Warehouse,Urban Areas,Area
-Buildings,cathedral,Religious Building Area,Area
-Buildings,chapel,Religious Building Area,Area
-Buildings,church,Religious Building Area,Area
-Buildings,kingdom_hall,Cultural Sites,Area
-Buildings,Monastery,Religious Building Area,Area
-Buildings,mosque,Religious Building Area,Area
-Buildings,presbytery,Religious Building Area,Area
-Buildings,religious,Religious Building Area,Area
-Buildings,shrine,Religious Building Area,Area
-Buildings,synagogue,Religious Building Area,Area
-Buildings,temple,Religious Building Area,Area
+Buildings,cathedral,Religious Area,Area
+Buildings,chapel,Religious Area,Area
+Buildings,church,Religious Area,Area
+Buildings,kingdom_hall,Heritage Area,Area
+Buildings,Monastery,Religious Area,Area
+Buildings,mosque,Religious Area,Area
+Buildings,presbytery,Religious Area,Area
+Buildings,religious,Religious Area,Area
+Buildings,shrine,Religious Area,Area
+Buildings,synagogue,Religious Area,Area
+Buildings,temple,Religious Area,Area
 Buildings,Bridge,IGNORE,Area
-Buildings,Military,Military,Area
+Buildings,Military,Military Area,Area
 Buildings,Roof,Urban Areas,Area
 Buildings,School,Urban Areas,Area
 Buildings,Apartment,Urban Areas,Area
@@ -320,10 +320,10 @@ Buildings,Roof,Urban Areas,Area
 Buildings,Industrial,Urban Areas,Area
 Office,Government,Urban Areas,Area
 Office,Estate Agent,Urban Areas,Area
-Leaftype,Needleleaved,Trees,Area
-Leaftype,Leafless,Trees,Area
-Leaftype,Broadleaved,Trees,Area
-Leaftype,Mixed,Trees,Area
+Leaftype,Needleleaved,IGNORE,Area
+Leaftype,Leafless,IGNORE,Area
+Leaftype,Broadleaved,IGNORE,Area
+Leaftype,Mixed,IGNORE,Area
 Leisure,Playground,IGNORE,Area
 Leisure,Park,IGNORE,Area
 Leisure,Pitch,IGNORE,Area
@@ -374,7 +374,7 @@ Leisure,nature_reserve,Buildings,Point
 Leisure,Horseriding,IGNORE,Area
 Sport,Soccer,IGNORE,Area
 Sport,Basketball,IGNORE,Area
-Historic,Memorial,Cultural Sites,Area
+Historic,Memorial,Heritage Area,Area
 Historic,Monument,Heritage Area,Area
 Emergency,ambulance_station,IGNORE,Area
 Emergency,ambulance_station,IGNORE,Point
@@ -386,15 +386,15 @@ Geological,outcrop,IGNORE,Line
 Geological,outcrop,IGNORE,Area
 Geological,outcrop,IGNORE,Point
 Geological,papalaeontological site,Heritage Point,Point
-Geological,palaeontological site,Cultural Sites,Area
-Geological,volcanic caldera rim,Volcanic Line,Line
-Geological,volcanic lava field,Volcanic Area,Area
+Geological,palaeontological site,Heritage Area,Area
+Geological,volcanic caldera rim,IGNORE,Line
+Geological,volcanic lava field,IGNORE,Area
 Geological,volcanic lava field,Volcanic Point,Point
 Historic,Aircraft,Airports,Point
-Historic,Aircraft,Airport Area,Area
-Historic,Aqueduct,Aqueduct Area,Area
-Historic,Aqueduct,Aqueduct Point,Line
-Historic,archaeological_site,Heritage Line,Line
+Historic,Aircraft,IGNORE,Area
+Historic,Aqueduct,IGNORE,Area
+Historic,Aqueduct,IGNORE,Line
+Historic,archaeological_site,IGNORE,Line
 Historic,archaeological_site,Heritage Area,Area
 Historic,archaeological_site,Heritage Point,Point
 Historic,battlefield,Heritage Point,Point
@@ -403,7 +403,7 @@ Historic,bomb_crater,Heritage Area,Area
 Historic,bomb_crater,Heritage Point,Point
 Historic,boundary_stone,IGNORE,Point
 Historic,Buildings,Buildings,Point
-Historic,Buildings,Building Area,Area
+Historic,Buildings,IGNORE,Area
 Historic,cannon,IGNORE,Point
 Historic,castle,Buildings,Point
 Historic,castle,Heritage Area,Area
@@ -412,7 +412,7 @@ Historic,castle_wall,Heritage Area,Area
 Historic,charcoal_pile,IGNORE,Area
 Historic,charcoal_pile,IGNORE,Point
 Historic,church,Religious Buildings,Point
-Historic,church,Religious Building Area,Area
+Historic,church,Religious Area,Area
 Historic,city_gate,IGNORE,Area
 Historic,city_gate,IGNORE,Point
 Historic,citywalls,IGNORE,Line
@@ -432,7 +432,7 @@ Historic,memorial,Heritage Point,Point
 Historic,memorial,Heritage Area,Area
 Historic,milestone,IGNORE,Point
 Historic,monastery,Religious Buildings,Point
-Historic,monastery,Religious Building Area,Area
+Historic,monastery,Religious Area,Area
 Historic,monument,Heritage Point,Point
 Historic,monument,Heritage Area,Area
 Historic,ruins,Heritage Area,Area
@@ -442,13 +442,13 @@ Historic,rune_stone,IGNORE,Point
 Historic,Ship,IGNORE,Point
 Historic,Ship,IGNORE,Area
 Boundary,aboriginal_lands,Indigenous Communities,Area
-Boundary,border_zone,Border Zone,Area
-Boundary,forest,Forest Area,Area
-Boundary,forest_compartment,Forest Area,Area
-Boundary,hazard,Hazard Boundary,Area
-Boundary,maritime,Maritime Boundary,Area
-Boundary,national_park,National Parks,Area
-Boundary,place,Boundary,Line
+Boundary,border_zone,IGNORE,Area
+Boundary,forest,Forest,Area
+Boundary,forest_compartment,Forest,Area
+Boundary,hazard,IGNORE,Area
+Boundary,maritime,IGNORE,Area
+Boundary,national_park,National Park,Area
+Boundary,place,IGNORE,Line
 Boundary,political,IGNORE,Area
 Boundary,postal_code,IGNORE,Area
 Boundary,protected_area,Protected Area,Area
@@ -468,17 +468,17 @@ Landuse,retail,Buildings,Point
 Landuse,retail,Urban Areas,Area
 Landuse,allotments,Urban Areas,Area
 Landuse,allotments,Buildings,Point
-Landuse,farmland,Urban Areas,Area
-Landuse,farmyard,Urban Areas,Area
+Landuse,farmland,Land Environments,Area
+Landuse,farmyard,Land Environments,Area
 Landuse,flowerbed,Tourist Area,Area
-Landuse,forest,Forest Area,Area
-Landuse,forest,Forests,Point
-Landuse,meadow,Forests,Point
-Landuse,meadow,Forest Area,Area
-Landuse,orchard,Forest Area,Area
-Landuse,orchard,Forests,Point
-Landuse,vineyard,Forests,Point
-Landuse,vineyard,Forest Area,Area
+Landuse,forest,Forest,Area
+Landuse,forest,IGNORE,Point
+Landuse,meadow,IGNORE,Point
+Landuse,meadow,Land Environments,Area
+Landuse,orchard,Land Environments,Area
+Landuse,orchard,IGNORE,Point
+Landuse,vineyard,IGNORE,Point
+Landuse,vineyard,Land Environments,Area
 Landuse,aquaculture,IGNORE,Area
 Landuse,aquaculture,IGNORE,Point
 Landuse,basin,IGNORE,Point
@@ -490,33 +490,33 @@ Landuse,depot,IGNORE,Area
 Landuse,garages,IGNORE,Area
 Landuse,grass,IGNORE,Area
 Landuse,grass,IGNORE,Point
-Landuse,greenfield,Forests,Point
-Landuse,greenfield,Forest Area,Area
+Landuse,greenfield,IGNORE,Point
+Landuse,greenfield,Land Environments,Area
 Landuse,greenhouse_horticulture,IGNORE,Area
 Landuse,landfill,Landfill Area,Area
-Landuse,landfill,Landfill Point,Point
+Landuse,landfill,IGNORE,Point
 Landuse,military,Military Point,Point
-Landuse,military,Military,Area
+Landuse,military,Military Area,Area
 Landuse,plant_nursery,IGNORE,Area
-Landuse,port,Ports,Area
-Landuse,quarry,Quarry Area,Area
+Landuse,port,IGNORE,Area
+Landuse,quarry,IGNORE,Area
 Landuse,quarry,Quarry Point,Point
 Landuse,railway,Railway Area,Area
 Landuse,recreation_ground,Urban Areas,Area
 Landuse,recreation_ground,Buildings,Point
 Landuse,religious,Religious Buildings,Point
-Landuse,religious,Religious Building Area,Area
-Landuse,village_green,Forest Area,Area
-Landuse,village_green,Villages,Point
+Landuse,religious,Religious Area,Area
+Landuse,village_green,Forest,Area
+Landuse,village_green,Settlements,Point
 Landuse,winter_sports,IGNORE,Point
 Landuse,winter_sports,IGNORE,Area
-Waterway,Stream,Stream,Area
+Waterway,Stream,IGNORE,Area
 Boundary,special_economic_zone,SEZ,Point
-Waterway,River,River Area,Area
+Waterway,River,Rivers,Area
 Landuse,Residential,Residential,Point
 Landuse,port,Port,Point
 Boundary,national_park,National Park,Point
-Natural,Water,Lakes,Point
+Natural,Water,IGNORE,Point
 voltage,8,TV_8,Line
 voltage,8kV,TV_8,Line
 voltage,8000,TV_8,Line
