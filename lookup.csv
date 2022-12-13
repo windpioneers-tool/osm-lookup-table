@@ -337,39 +337,39 @@ Leisure,beach_resort,Urban Areas,Area
 Leisure,beach_resort,Buildings,Point
 Leisure,bandstand,Buildings,Point
 Leisure,bandstand,Urban Areas,Area
-Leisure,bird_hide,Urban Areas,Area
+Leisure,bird_hide,Tourist Areas,Area
 Leisure,bird_hide,Buildings,Point
 Leisure,common,Buildings,Point
-Leisure,common,Urban Areas,Area
+Leisure,common,Tourist Areas,Area
 Leisure,dance,Buildings,Point
 Leisure,dance,Urban Areas,Area
-Leisure,disc_golf_course,Urban Areas,Area
+Leisure,disc_golf_course,Tourist Areas,Area
 Leisure,disc_golf_course,Buildings,Point
 Leisure,dog_park,Buildings,Point
-Leisure,dog_park,Urban Areas,Area
+Leisure,dog_park,Tourist Areas,Area
 Leisure,escape_game,Urban Areas,Area
 Leisure,escape_game,Buildings,Point
 Leisure,firepit,Urban Areas,Area
 Leisure,firepit,Buildings,Point
-Leisure,fishing,Urban Areas,Area
+Leisure,fishing,Tourist Areas,Area
 Leisure,fishing,Buildings,Point
 Leisure,fitness_centre,Urban Areas,Area
 Leisure,fitness_centre,Buildings,Point
 Leisure,fitness_station,Urban Areas,Area
 Leisure,fitness_station,Buildings,Point
-Leisure,garden,Urban Areas,Area
+Leisure,garden,Tourist Areas,Area
 Leisure,garden,Buildings,Point
 Leisure,hackerspace,Urban Areas,Area
 Leisure,hackerspace,Buildings,Point
-Leisure,horse_riding,Urban Areas,Area
+Leisure,horse_riding,Tourist Areas,Area
 Leisure,horse_riding,Buildings,Point
-Leisure,ice_rink,Urban Areas,Area
+Leisure,ice_rink,Tourist Areas,Area
 Leisure,ice_rink,Buildings,Point
-Leisure,marina,Urban Areas,Area
+Leisure,marina,Tourist Areas,Area
 Leisure,marina,Buildings,Point
-Leisure,miniature_golf,Urban Areas,Area
+Leisure,miniature_golf,Tourist Areas,Area
 Leisure,miniature_golf,Buildings,Point
-Leisure,nature_reserve,Urban Areas,Area
+Leisure,nature_reserve,Tourist Areas,Area
 Leisure,nature_reserve,Buildings,Point
 Leisure,Horseriding,IGNORE,Area
 Sport,Soccer,IGNORE,Area
@@ -502,7 +502,7 @@ Landuse,port,IGNORE,Area
 Landuse,quarry,IGNORE,Area
 Landuse,quarry,Quarry Point,Point
 Landuse,railway,Railway Area,Area
-Landuse,recreation_ground,Urban Areas,Area
+Landuse,recreation_ground,Tourist Area,Area
 Landuse,recreation_ground,Buildings,Point
 Landuse,religious,Religious Buildings,Point
 Landuse,religious,Religious Area,Area
