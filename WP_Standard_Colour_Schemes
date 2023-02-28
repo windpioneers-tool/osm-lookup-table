@@ -1,0 +1,3 @@
+Colour Scheme Name,WQ Icon Name,WQ Icon Size,WQ Icon Transparency [0-1],WQ Icon HTML,GE Icon Name,GE Icon Size,GE Icon Transparency [0-1],GE Icon HTML,Line Colour [RGB Hex],Line Width,Line Transparency [0-1],Area Colour [RGB Hex],Area Transparency [0-1]
+Airport,Airport,0.8,0.8,http://maps.google.com/mapfiles/kml/shapes/Airports.png,Airport,0.8,0.8,http://maps.google.com/mapfiles/kml/shapes/Airports.png,ffffff,5,70%,ffffff,20%
+Road,Bus,0.8,0.8,http://maps.google.com/mapfiles/kml/shapes/Bus.png,Bus,0.8,0.8,http://maps.google.com/mapfiles/kml/shapes/Bus.png,2F3ACC,3,70%,2F3ACC,20%
