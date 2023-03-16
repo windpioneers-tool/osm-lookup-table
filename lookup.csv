@@ -557,3 +557,7 @@ voltage,400000,TV_400,Line
 voltage,765000,TV_765,Line
 voltage,132000,TV_132,Line
 voltage,25000,TV_25,Line
+generator:method,wind_turbine,ExistingTurbines,Point
+generator:source,wind,ExistingTurbines,Point
+generator:type,wind_turbine,ExistingTurbines,Point
+generator:type,horizontal_axis,ExistingTurbines,Point
