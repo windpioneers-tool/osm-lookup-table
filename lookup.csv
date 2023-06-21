@@ -570,3 +570,9 @@ plant:source,gas,PowerPlantSource,Point
 plant:source,gas;oil,PowerPlantSource,Point
 plant:source,hydro,PowerPlantSource,Point
 plant:source,biomass,PowerPlantSource,Point
+generator:method,wind_turbine,WindTurbines,Point
+generator:method,combustion,PowerPlant,Point
+generator:method,photovoltaic,WindTurbines,Point
+generator:source,wind,WindTurbines,Point
+generator:source,solar,PowerPlantSource,Point
+generator:source,gas,PowerPlantSource,Point
