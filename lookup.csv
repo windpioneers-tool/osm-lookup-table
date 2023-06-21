@@ -557,3 +557,16 @@ voltage,400000,TV_400,Line
 voltage,765000,TV_765,Line
 voltage,132000,TV_132,Line
 voltage,25000,TV_25,Line
+plant:method,combustion,PowerPlant,Point
+plant:method,photovoltaic,PowerPlant,Point
+plant:output:electricity,875 MW,PowerPlantCapacity,Point
+plant:output:electricity,1738 MW,PowerPlantCapacity,Point
+plant:output:electricity,yes,PowerPlantCapacity,Point
+plant:output:electricity,28 MW,PowerPlantCapacity,Point
+plant:output:electricity,48 MW,PowerPlantCapacity,Point
+plant:output:electricity,814 MW,PowerPlantCapacity,Point
+plant:source,solar,PowerPlantSource,Point
+plant:source,gas,PowerPlantSource,Point
+plant:source,gas;oil,PowerPlantSource,Point
+plant:source,hydro,PowerPlantSource,Point
+plant:source,biomass,PowerPlantSource,Point
