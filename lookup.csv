@@ -808,8 +808,8 @@ abandoned:highway,primary,Broken Road,Line
 abandoned:highway,primary,Broken Road,Area
 abandoned:highway,,Broken Road,Line
 abandoned:highway,,Broken Road,Area
-disused:amenity,caf鬄isused Building,Point
-disused:amenity,caf鬄isused Building,Area
+disused:amenity,cafe,Disused Building,Point
+disused:amenity,cafe,Disused Building,Area
 disused:amenity,pub,Disused Building,Point
 disused:amenity,pub,Disused Building,Area
 substation,transmission,Substation,Point
@@ -896,9 +896,9 @@ proposed,monorail,Upcoming Railway,Point
 proposed,train,Upcoming Railway,Line
 proposed,monorail,Upcoming Railway,Point
 proposed,train,Upcoming Railway,Line
-closed:amenity,caf鬄isused Building,Point
+closed:amenity,cafe,Disused Building,Point
 closed:amenity,building,Disused Building,Point
-closed:amenity,caf鬄isused Building,Area
+closed:amenity,cafe,Disused Building,Area
 closed:amenity,building,Disused Building,Area
 bay,fjord,Fjord,Point
 bay,fjord,Fjord,Line
