@@ -1,44 +1,44 @@
 OSM Tags,OSM Values,Constraint Name,Constraint Type
-Highway,Primary,Highways,Line
-Highway,Secondary,Roads,Line
-Highway,Tertiary,Roads,Line
-Highway,Unclassified,Roads,Line
-Highway,Path,Roads,Line
-Highway,Trunk,Roads,Line
-Highway,Service,Roads,Line
-Highway,Residential,Roads,Line
-Highway,Path,Roads,Line
-Highway,Track,Roads,Line
+Highway,Primary,Primary Road,Line
+Highway,Secondary,Secondary Road,Line
+Highway,Tertiary,Tertiary Road,Line
+Highway,Unclassified,Road,Line
+Highway,Path,Road,Line
+Highway,Trunk,Road,Line
+Highway,Service,Road,Line
+Highway,Residential,Residential Road,Line
+Highway,Path,Road,Line
+Highway,Track,Track,Line
 Highway,Cycleway,IGNORE,Line
 Highway,Footway,IGNORE,Line
-Highway,Motorway,Roads,Line
-Highway,Motorway Link,Roads,Line
+Highway,Motorway,Road,Line
+Highway,Motorway Link,Road,Line
 Highway,Lanes,IGNORE,Line
-Highway,Trunk Link,Roads,Line
-Highway,Primary Link,Highways,Line
-Highway,Secondary Link,Roads,Line
-Highway,Tertiary Link,Roads,Line
+Highway,Trunk Link,Road,Line
+Highway,Primary Link,Road,Line
+Highway,Secondary Link,Road,Line
+Highway,Tertiary Link,Road,Line
 Highway,Living Street,IGNORE,Line
 Highway,Pedastrian,IGNORE,Line
 Highway,Escape,IGNORE,Line
 Highway,Raceway,IGNORE,Line
-Highway,Road,Roads,Line
-Highway,Busway,Roads,Line
+Highway,Road,Road,Line
+Highway,Busway,Road,Line
 Highway,Bridleway,IGNORE,Line
 Highway,Steps,IGNORE,Line
 Highway,Corridor,IGNORE,Line
-Highway,Path,Roads,Line
+Highway,Path,Road,Line
 Footway,Sidewalk,IGNORE,Line
-Footway,Crossing,Roads,Line
-Cycleway,Opposite,Roads,Line
-Cycleway,Opposite Lane,Roads,Line
-Cycleway,Opposite Track,Roads,Line
-Cycleway,Share busway,Roads,Line
-Cycleway,Opposite Share busway,Roads,Line
-Cycleway,Shared Lane,Roads,Line
-Busway,Lane,Roads,Line
+Footway,Crossing,Road,Line
+Cycleway,Opposite,Road,Line
+Cycleway,Opposite Lane,Road,Line
+Cycleway,Opposite Track,Road,Line
+Cycleway,Share busway,Road,Line
+Cycleway,Opposite Share busway,Road,Line
+Cycleway,Shared Lane,Road,Line
+Busway,Lane,Road,Line
 Highway,Proposed,IGNORE,Line
-Highway,Construction,Roads,Line
+Highway,Construction,Road,Line
 Highway,Platform,IGNORE,Line
 Highway,Bus Stop,IGNORE,Point
 Highway,Turning Circle,IGNORE,Point
@@ -76,232 +76,232 @@ admin_level,6,Admin Boundary,Line
 admin_level,7,Admin Boundary,Line
 admin_level,8,Admin Boundary,Line
 admin_level,9,Admin Boundary,Line
-admin_level,10,Admin Boundary,Line
+admin_level,10,IGNORE,Line
 admin_level,11,Admin Boundary,Line
 Power,Line,Grid,Line
-Natural,Water,Natural Features,Area
-Natural,Mud,Natural Features,Area
+Natural,Water,IGNORE,Area
+Natural,Mud,IGNORE,Area
 Natural,Wood,Forest,Area
-Natural,Coastline,Natural Features,Area
-Natural,Bare Rock,Natural Features,Area
-Natural,Sand,Natural Features,Area
-Natural,Wetland,Natural Features,Area
-Natural,Beach,Natural Features,Area
-Natural,Scrub,Natural Features,Area
-Natural,Grassland,Forest,Area
+Natural,Coastline,Coastline,Area
+Natural,Bare Rock,Bedrock,Area
+Natural,Sand,IGNORE,Area
+Natural,Wetland,Wetland,Area
+Natural,Beach,Beach,Area
+Natural,Scrub,Scrub,Area
+Natural,Grassland,Grassland,Area
 Natural,Coastline,Coastline,Line
 Natural,Tree row,IGNORE,Line
 Natural,Ridge,Mountain Ridge,Line
 Barrier,"Fence, Wall",IGNORE,Line
 Barrier,Cattle Grid,IGNORE,Point
 Barrier,Gate,IGNORE,Point
-Barrier,Border Control,Buildings,Point
-Railways,Line,Railways,Line
-Railways,Rail,Railways,Line
-Railways,Abandoned,Railways,Line
-Waterway,River,Rivers,Line
-Waterway,Stream,Rivers,Line
-Waterway,Canal,Rivers,Line
+Barrier,Border Control,Building,Point
+Railways,Line,Railway,Line
+Railways,Rail,Railway,Line
+Railways,Abandoned,Disused Railway,Line
+Waterway,River,River,Line
+Waterway,Stream,River,Line
+Waterway,Canal,River,Line
 Waterway,Drain,IGNORE,Line
-Man-Made,Bridge,Roads,Line
-Man-Made,Pier,Tourist Area,Area
-Man-Made,Pier,IGNORE,Line
+Man-Made,Bridge,Bridge,Line
+Man-Made,Pier,Pier,Area
+Man-Made,Pier,Pier,Line
 Man-Made,Cutline,IGNORE,Line
 Boundary,Postal Code,IGNORE,Line
 Aeroway,Gate,IGNORE,Point
-Aeroway,Taxiway,Airspace,Line
-Aeroway,Runway,Airspace,Line
+Aeroway,Taxiway,Airport,Line
+Aeroway,Runway,Airport,Line
 Aeroway,Apron,IGNORE,Area
 Amenity,Marketplace,IGNORE,Line
 Service,Parking Aisle,IGNORE,Line
-Place,Locality,Settlements,Point
-Place,Hamlet,Settlements,Point
-Place,Town,Settlements,Point
-Place,Settlements,Settlements,Point
-Place,Suburb,Settlements,Point
-Place,Town,Urban Areas,Area
-Place,Settlements,Urban Areas,Area
-Power,Tower,Substation,Point
+Place,Locality,Settlement,Point
+Place,Hamlet,Settlement,Point
+Place,Town,Urban Area,Point
+Place,Settlements,Settlement,Point
+Place,Suburb,Settlement,Point
+Place,Town,Urban Area,Area
+Place,Settlements,Settlement,Area
+Power,Tower,Power Tower,Point
 Power,Pole,IGNORE,Point
-Man-Made,Mast,Windmasts,Point
-Man-Made,Petroleum well,Buildings,Point
-Man-Made,Tower,Buildings,Point
-Airport,Name,Airports,Point
-Aeroway,Aerodrome,Airports,Point
-Aeroway,Helipad,Airports,Point
+Man-Made,Mast,Wind Mast,Point
+Man-Made,Petroleum well,Oil Well,Point
+Man-Made,Tower,Building,Point
+Airport,Name,Airport,Point
+Aeroway,Aerodrome,Airport,Point
+Aeroway,Helipad,Heliport,Point
 Railways,Level Crossing,IGNORE,Point
-Railways,station,Buildings,Point
+Railways,station,Building,Point
 Traffic Calming,Hump,IGNORE,Point
-Military,"Naval Base, Check Point",Buildings,Point
-Historic,Monument,Buildings,Point
+Military,"Naval Base, Check Point",Military,Point
+Historic,Monument,Historical Building,Point
 Natural,Peak,Mountain Peak,Point
-Tourism,Hotel,Buildings,Point
-Tourism,Viewpoint,Tourist Point,Point
-Shop,Hardware,Urban Areas,Area
-Shop,Wholescale,Urban Areas,Area
-Shop,Car,Urban Areas,Area
-Shop,Electronics,Urban Areas,Area
-Shop,Mall,Urban Areas,Area
-Shop,Supermarket,Buildings,Point
-Shop,Convenience,Buildings,Point
-Shop,Electronics,Buildings,Point
+Tourism,Hotel,Tourist Accomodation,Point
+Tourism,Viewpoint,IGNORE,Point
+Shop,Hardware,Commercial Building,Area
+Shop,Wholescale,Commercial Building,Area
+Shop,Car,Commercial Building,Area
+Shop,Electronics,Commercial Building,Area
+Shop,Mall,Commercial Building,Area
+Shop,Supermarket,Commercial Building,Point
+Shop,Convenience,Commercial Building,Point
+Shop,Electronics,Commercial Building,Point
 Population,Number,IGNORE,Point
 Population,Year,IGNORE,Point
 Landuse,Forest,Forest,Area
-Landuse,Industrial,Urban Areas,Area
-Landuse,Residential,Urban Areas,Area
-Landuse,Military,Military Area,Area
-Landuse,Commercial,Urban Areas,Area
-Landuse,Silo,Urban Areas,Area
-Landuse,Cemetery,Religious Area,Area
-Amenity,Clinic,Buildings,Point
-Amenity,Bar,Buildings,Point
-Amenity,Biergarten,Buildings,Point
-Amenity,Police,Buildings,Point
-Amenity,place_of_worship,Religious Buildings,Point
-Amenity,School,Buildings,Point
-Amenity,Café,Buildings,Point
-Amenity,Pub,Buildings,Point
-Amenity,Restaurant,Buildings,Point
-Amenity,Food Court,Buildings,Point
-Amenity,Fast Food,Buildings,Point
-Amenity,Ice Cream,Buildings,Point
-Amenity,College,Buildings,Point
-Amenity,Driving School,Buildings,Point
-Amenity,Kindergarten,Buildings,Point
-Amenity,Language School,Buildings,Point
-Amenity,Library,Buildings,Point
-Amenity,Music School,Buildings,Point
-Amenity,School,Buildings,Point
-Amenity,University,Buildings,Point
-Amenity,ATM,Buildings,Point
-Amenity,Bank,Buildings,Point
-Amenity,Veterinary,Buildings,Point
-Amenity,Hospital,Buildings,Point
-Amenity,Cinema,Buildings,Point
-Amenity,Post Box,Buildings,Point
-Amenity,Refugee Site,Buildings,Point
-Amenity,Nursing Home,Buildings,Point
-Amenity,Pharmacy,Buildings,Point
-Amenity,Social Facility,Buildings,Point
-Amenity,Arts Centre,Buildings,Point
-Amenity,Cinema,Buildings,Point
-Amenity,Casino,Buildings,Point
-Amenity,Community Centre,Buildings,Point
-Amenity,Conference Centre,Buildings,Point
-Amenity,Events Venue,Buildings,Point
-Amenity,Fountain,Buildings,Point
-Amenity,Nightclub,Buildings,Point
-Amenity,Planetarium,Buildings,Point
-Amenity,Social Centre,Buildings,Point
-Amenity,Studio,Buildings,Point
-Amenity,Theatre,Buildings,Point
-Amenity,Courthouse,Buildings,Point
-Amenity,Fire Station,Buildings,Point
-Amenity,Post Office,Buildings,Point
-Amenity,Post Depot,Buildings,Point
-Amenity,Townhall,Buildings,Point
+Landuse,Industrial,Industrial,Area
+Landuse,Residential,Residential,Area
+Landuse,Military,Military,Area
+Landuse,Commercial,Commercial,Area
+Landuse,Silo,Urban Area,Area
+Landuse,Cemetery,Cemetery,Area
+Amenity,Clinic,Healthcare Facility,Point
+Amenity,Bar,Commercial Building,Point
+Amenity,Biergarten,Commercial Building,Point
+Amenity,Police,Building,Point
+Amenity,place_of_worship,Religious Building,Point
+Amenity,School,Educational Facility,Point
+Amenity,Café,Commercial Building,Point
+Amenity,Pub,Commercial Building,Point
+Amenity,Restaurant,Commercial Building,Point
+Amenity,Food Court,Commercial Building,Point
+Amenity,Fast Food,Commercial Building,Point
+Amenity,Ice Cream,Commercial Building,Point
+Amenity,College,Educational Facility,Point
+Amenity,Driving School,Educational Facility,Point
+Amenity,Kindergarten,Educational Facility,Point
+Amenity,Language School,Educational Facility,Point
+Amenity,Library,Educational Facility,Point
+Amenity,Music School,Educational Facility,Point
+Amenity,School,Educational Facility,Point
+Amenity,University,Educational Facility,Point
+Amenity,ATM,Commercial Building,Point
+Amenity,Bank,Commercial Building,Point
+Amenity,Veterinary,Healthcare Facility,Point
+Amenity,Hospital,Healthcare Facility,Point
+Amenity,Cinema,Commercial Building,Point
+Amenity,Post Box,Commercial Building,Point
+Amenity,Refugee Site,Refugee Site,Point
+Amenity,Nursing Home,Healthcare Facility,Point
+Amenity,Pharmacy,Healthcare Facility,Point
+Amenity,Social Facility,Social Facility,Point
+Amenity,Arts Centre,Building,Point
+Amenity,Cinema,Commercial Building,Point
+Amenity,Casino,Commercial Building,Point
+Amenity,Community Centre,Social Facility,Point
+Amenity,Conference Centre,Building,Point
+Amenity,Events Venue,Commercial Building,Point
+Amenity,Fountain,IGNORE,Point
+Amenity,Nightclub,Commercial Building,Point
+Amenity,Planetarium,Educational Facility,Point
+Amenity,Social Centre,Social Facility,Point
+Amenity,Studio,Commercial Building,Point
+Amenity,Theatre,Commercial Building,Point
+Amenity,Courthouse,Building,Point
+Amenity,Fire Station,Building,Point
+Amenity,Post Office,Building,Point
+Amenity,Post Depot,Building,Point
+Amenity,Townhall,Social Facility,Point
 Amenity,Drinking Water,IGNORE,Point
-Amenity,Shelter,Buildings,Point
+Amenity,Shelter,Social Facility,Point
 Amenity,Telephone,IGNORE,Point
 Amenity,Water Point,IGNORE,Point
 Amenity,Watering Place,IGNORE,Point
 Amenity,Recycling,IGNORE,Point
 Amenity,Waste Disposal,IGNORE,Point
-Amenity,Waste Transfer Station,Buildings,Point
-Amenity,Animal Boarding,IGNORE,Point
-Amenity,Animal Breeding,IGNORE,Point
-Amenity,Animal Shelter,Buildings,Point
-Amenity,Childcare,Buildings,Point
-Amenity,Crematorium,Buildings,Point
-Amenity,Dive Centre,Buildings,Point
-Amenity,Graveyard,IGNORE,Point
-Amenity,Internet Cafe,Buildings,Point
-Amenity,Kitchen,Buildings,Point
-Amenity,Monastery,Buildings,Point
-Amenity,Funeral Hall,Buildings,Point
-Amenity,Restaurant,Buildings,Point
-Amenity,Taxi,Buildings,Point
-Amenity,Parking,Urban Areas,Area
-Amenity,Bar,Urban Areas,Area
-Amenity,Fire Station,Urban Areas,Area
-Amenity,Biergarten,Urban Areas,Area
-Amenity,Café,Urban Areas,Area
-Amenity,Pub,Urban Areas,Area
-Amenity,Food Court,Urban Areas,Area
-Amenity,Fast Food,Urban Areas,Area
-Amenity,College,Urban Areas,Area
-Amenity,Ice Cream,Urban Areas,Area
-Amenity,Driving School,Urban Areas,Area
-Amenity,Kindergarten,Urban Areas,Area
-Amenity,Language School,Urban Areas,Area
-Amenity,Library,Urban Areas,Area
-Amenity,Music School,Urban Areas,Area
-Amenity,School,Urban Areas,Area
-Amenity,University,Urban Areas,Area
-Amenity,Bank,Urban Areas,Area
-Amenity,Veterinary,Urban Areas,Area
-Amenity,Hospital,Urban Areas,Area
-Amenity,Cinema,Urban Areas,Area
-Amenity,Refugee Site,IGNORE,Area
-Amenity,place_of_worship,Religious Area,Area
-Amenity,Clinic,Urban Areas,Area
-Amenity,Post Office,Urban Areas,Area
-Amenity,Public Buildings,Urban Areas,Area
-Amenity,Bus Station,Urban Areas,Area
-Amenity,Dentist,Urban Areas,Area
-Amenity,Fuel,Urban Areas,Area
-Amenity,Pharmacy,Urban Areas,Area
-Amenity,Social Facility,Urban Areas,Area
-Amenity,Arts Centre,Urban Areas,Area
-Amenity,Casino,Urban Areas,Area
-Amenity,Community Centre,Urban Areas,Area
-Amenity,Conference Centre,Urban Areas,Area
-Amenity,Events Venue,Urban Areas,Area
+Amenity,Waste Transfer Station,IGNORE,Point
+Amenity,Animal Boarding,Animal Keeping,Point
+Amenity,Animal Breeding,Animal Keeping,Point
+Amenity,Animal Shelter,Animal Keeping,Point
+Amenity,Childcare,Social Facility,Point
+Amenity,Crematorium,Crematorium,Point
+Amenity,Dive Centre,IGNORE,Point
+Amenity,Graveyard,Cemetery,Point
+Amenity,Internet Cafe,Commercial Building,Point
+Amenity,Kitchen,Commercial Building,Point
+Amenity,Monastery,Religious Building,Point
+Amenity,Funeral Hall,Building,Point
+Amenity,Restaurant,Commercial Building,Point
+Amenity,Taxi,Building,Point
+Amenity,Parking,Urban Area,Area
+Amenity,Bar,Commercial Building,Area
+Amenity,Fire Station,Urban Area,Area
+Amenity,Biergarten,Commercial Building,Area
+Amenity,Café,Commercial Building,Area
+Amenity,Pub,Commercial Building,Area
+Amenity,Food Court,Commercial Building,Area
+Amenity,Fast Food,Commercial Building,Area
+Amenity,College,Educational Facility,Area
+Amenity,Ice Cream,Commercial Building,Area
+Amenity,Driving School,Educational Facility,Area
+Amenity,Kindergarten,Educational Facility,Area
+Amenity,Language School,Educational Facility,Area
+Amenity,Library,Educational Facility,Area
+Amenity,Music School,Educational Facility,Area
+Amenity,School,Educational Facility,Area
+Amenity,University,Educational Facility,Area
+Amenity,Bank,Commercial Building,Area
+Amenity,Veterinary,Healthcare Facility,Area
+Amenity,Hospital,Healthcare Facility,Area
+Amenity,Cinema,Commercial Building,Area
+Amenity,Refugee Site,Refugee Site,Area
+Amenity,place_of_worship,Religious Building,Area
+Amenity,Clinic,Healthcare Facility,Area
+Amenity,Post Office,Urban Area,Area
+Amenity,Public Buildings,Public Building,Area
+Amenity,Bus Station,Urban Area,Area
+Amenity,Dentist,Healthcare Facility,Area
+Amenity,Fuel,Commercial,Area
+Amenity,Pharmacy,Healthcare Facility,Area
+Amenity,Social Facility,Social Facility,Area
+Amenity,Arts Centre,Building,Area
+Amenity,Casino,Commercial Building,Area
+Amenity,Community Centre,Social Facility,Area
+Amenity,Conference Centre,Building,Area
+Amenity,Events Venue,Commercial Building,Area
 Amenity,Fountain,IGNORE,Area
-Amenity,Nightclub,Urban Areas,Area
-Amenity,Planetarium,Urban Areas,Area
-Amenity,Social Centre,Urban Areas,Area
-Amenity,Studio,Urban Areas,Area
-Amenity,Theatre,Urban Areas,Area
-Amenity,Courthouse,Urban Areas,Area
-Amenity,Police,Urban Areas,Area
-Amenity,Post Box,Urban Areas,Area
-Amenity,Post Depot,Urban Areas,Area
-Amenity,Townhall,Urban Areas,Area
-Amenity,Shelter,Urban Areas,Area
-Amenity,Recycling,Urban Areas,Area
-Amenity,Animal Boarding,IGNORE,Area
-Amenity,Animal Breeding,IGNORE,Area
-Amenity,Animal Shelter,Urban Areas,Area
-Amenity,Childcare,Urban Areas,Area
-Amenity,Crematorium,Urban Areas,Area
+Amenity,Nightclub,Commercial Building,Area
+Amenity,Planetarium,Educational Facility,Area
+Amenity,Social Centre,Social Facility,Area
+Amenity,Studio,Commercial Building,Area
+Amenity,Theatre,Commercial Building,Area
+Amenity,Courthouse,Building,Area
+Amenity,Police,Building,Area
+Amenity,Post Box,Commercial Building,Area
+Amenity,Post Depot,Urban Area,Area
+Amenity,Townhall,Social Facility,Area
+Amenity,Shelter,Social Facility,Area
+Amenity,Recycling,Commercial,Area
+Amenity,Animal Boarding,Animal Keeping,Area
+Amenity,Animal Breeding,Animal Keeping,Area
+Amenity,Animal Shelter,Animal Keeping,Area
+Amenity,Childcare,Social Facility,Area
+Amenity,Crematorium,Crematorium,Area
 Amenity,Dive Centre,IGNORE,Area
-Amenity,Funeral Hall,Urban Areas,Area
-Amenity,Internet Cafe,Urban Areas,Area
-Amenity,Kitchen,Urban Areas,Area
-Amenity,Marketplace,Urban Areas,Area
-Buildings,Residential,Urban Areas,Area
-Buildings,Yes,Urban Areas,Area
-Buildings,Bungalow,Urban Areas,Area
-Buildings,Cabin,Urban Areas,Area
-Buildings,Apartment,Urban Areas,Area
-Buildings,Hospital,Urban Areas,Area
-Buildings,Dormitory,Urban Areas,Area
-Buildings,Farm,Urban Areas,Area
-Buildings,Hotel,Urban Areas,Area
-Buildings,House,Urban Areas,Area
-Buildings,Houseboat,Urban Areas,Area
-Buildings,Terrace,Urban Areas,Area
-Buildings,Kiosk,Urban Areas,Area
-Buildings,Office,Urban Areas,Area
-Buildings,Retail,Urban Areas,Area
-Buildings,Supermarket,Urban Areas,Area
-Buildings,Warehouse,Urban Areas,Area
+Amenity,Funeral Hall,Urban Area,Area
+Amenity,Internet Cafe,Commercial,Area
+Amenity,Kitchen,Commercial,Area
+Amenity,Marketplace,Commercial,Area
+Buildings,Residential,Residential,Area
+Buildings,Yes,Urban Area,Area
+Buildings,Bungalow,Residential,Area
+Buildings,Cabin,Residential,Area
+Buildings,Apartment,Residential,Area
+Buildings,Hospital,Healthcare Facility,Area
+Buildings,Dormitory,Residential,Area
+Buildings,Farm,Farmland,Area
+Buildings,Hotel,Tourist Accomodation,Area
+Buildings,House,Residential,Area
+Buildings,Houseboat,Residential,Area
+Buildings,Terrace,IGNORE,Area
+Buildings,Kiosk,Commercial,Area
+Buildings,Office,Commercial,Area
+Buildings,Retail,Commercial,Area
+Buildings,Supermarket,Commercial,Area
+Buildings,Warehouse,Commercial,Area
 Buildings,cathedral,Religious Area,Area
 Buildings,chapel,Religious Area,Area
 Buildings,church,Religious Area,Area
-Buildings,kingdom_hall,Heritage Area,Area
+Buildings,kingdom_hall,Religious Area,Area
 Buildings,Monastery,Religious Area,Area
 Buildings,mosque,Religious Area,Area
 Buildings,presbytery,Religious Area,Area
@@ -310,108 +310,108 @@ Buildings,shrine,Religious Area,Area
 Buildings,synagogue,Religious Area,Area
 Buildings,temple,Religious Area,Area
 Buildings,Bridge,IGNORE,Area
-Buildings,Military,Military Area,Area
-Buildings,Roof,Urban Areas,Area
-Buildings,School,Urban Areas,Area
-Buildings,Apartment,Urban Areas,Area
-Buildings,Public,Urban Areas,Area
-Buildings,Commercial,Urban Areas,Area
-Buildings,Roof,Urban Areas,Area
-Buildings,Industrial,Urban Areas,Area
-Office,Government,Urban Areas,Area
-Office,Estate Agent,Urban Areas,Area
+Buildings,Military,Military,Area
+Buildings,Roof,IGNORE,Area
+Buildings,School,Educational Facility,Area
+Buildings,Apartment,Residential,Area
+Buildings,Public,Urban Area,Area
+Buildings,Commercial,Commercial,Area
+Buildings,Roof,IGNORE,Area
+Buildings,Industrial,Industrial,Area
+Office,Government,Government,Area
+Office,Estate Agent,Commercial,Area
 Leaftype,Needleleaved,IGNORE,Area
 Leaftype,Leafless,IGNORE,Area
 Leaftype,Broadleaved,IGNORE,Area
 Leaftype,Mixed,IGNORE,Area
-Leisure,Playground,IGNORE,Area
-Leisure,Park,IGNORE,Area
+Leisure,Playground,Residential,Area
+Leisure,Park,Residential,Area
 Leisure,Pitch,IGNORE,Area
 Leisure,Swimming Pool,IGNORE,Area
 Leisure,Stadium,IGNORE,Area
-Leisure,adult_gaming_centre,Urban Areas,Area
-Leisure,adult_gaming_centre,Buildings,Point
-Leisure,amusement_arcade,Buildings,Point
-Leisure,amusement_arcade,Urban Areas,Area
-Leisure,beach_resort,Urban Areas,Area
-Leisure,beach_resort,Buildings,Point
-Leisure,bandstand,Buildings,Point
-Leisure,bandstand,Urban Areas,Area
-Leisure,bird_hide,Tourist Areas,Area
-Leisure,bird_hide,Buildings,Point
-Leisure,common,Buildings,Point
-Leisure,common,Tourist Areas,Area
-Leisure,dance,Buildings,Point
-Leisure,dance,Urban Areas,Area
-Leisure,disc_golf_course,Tourist Areas,Area
-Leisure,disc_golf_course,Buildings,Point
-Leisure,dog_park,Buildings,Point
-Leisure,dog_park,Tourist Areas,Area
-Leisure,escape_game,Urban Areas,Area
-Leisure,escape_game,Buildings,Point
-Leisure,firepit,Urban Areas,Area
-Leisure,firepit,Buildings,Point
-Leisure,fishing,Tourist Areas,Area
-Leisure,fishing,Buildings,Point
-Leisure,fitness_centre,Urban Areas,Area
-Leisure,fitness_centre,Buildings,Point
-Leisure,fitness_station,Urban Areas,Area
-Leisure,fitness_station,Buildings,Point
-Leisure,garden,Tourist Areas,Area
-Leisure,garden,Buildings,Point
-Leisure,hackerspace,Urban Areas,Area
-Leisure,hackerspace,Buildings,Point
-Leisure,horse_riding,Tourist Areas,Area
-Leisure,horse_riding,Buildings,Point
-Leisure,ice_rink,Tourist Areas,Area
-Leisure,ice_rink,Buildings,Point
-Leisure,marina,Tourist Areas,Area
-Leisure,marina,Buildings,Point
-Leisure,miniature_golf,Tourist Areas,Area
-Leisure,miniature_golf,Buildings,Point
-Leisure,nature_reserve,Tourist Areas,Area
-Leisure,nature_reserve,Buildings,Point
+Leisure,adult_gaming_centre,Commercial,Area
+Leisure,adult_gaming_centre,Commercial,Point
+Leisure,amusement_arcade,Commercial,Point
+Leisure,amusement_arcade,Commercial,Area
+Leisure,beach_resort,Tourist Accomodation,Area
+Leisure,beach_resort,Tourist Accomodation,Point
+Leisure,bandstand,Commercial Building,Point
+Leisure,bandstand,Commercial,Area
+Leisure,bird_hide,IGNORE,Area
+Leisure,bird_hide,Building,Point
+Leisure,common,Tourist Area,Point
+Leisure,common,Tourist Area,Area
+Leisure,dance,Commercial Building,Point
+Leisure,dance,Commercial,Area
+Leisure,disc_golf_course,Commercial,Area
+Leisure,disc_golf_course,Commercial Building,Point
+Leisure,dog_park,Residential,Point
+Leisure,dog_park,Residential,Area
+Leisure,escape_game,Commercial,Area
+Leisure,escape_game,Commercial Building,Point
+Leisure,firepit,IGNORE,Area
+Leisure,firepit,IGNORE,Point
+Leisure,fishing,Tourist Area,Area
+Leisure,fishing,Tourist Area,Point
+Leisure,fitness_centre,Commercial,Area
+Leisure,fitness_centre,Commercial Building,Point
+Leisure,fitness_station,Commercial,Area
+Leisure,fitness_station,Commercial Building,Point
+Leisure,garden,Residential,Area
+Leisure,garden,Residential,Point
+Leisure,hackerspace,Urban Area,Area
+Leisure,hackerspace,Building,Point
+Leisure,horse_riding,Tourist Area,Area
+Leisure,horse_riding,Tourist Area,Point
+Leisure,ice_rink,Commercial,Area
+Leisure,ice_rink,Commercial Building,Point
+Leisure,marina,Marina,Area
+Leisure,marina,Marina,Point
+Leisure,miniature_golf,Commercial,Area
+Leisure,miniature_golf,Commercial Building,Point
+Leisure,nature_reserve,Nature Reserve,Area
+Leisure,nature_reserve,Nature Reserve,Point
 Leisure,Horseriding,IGNORE,Area
 Sport,Soccer,IGNORE,Area
 Sport,Basketball,IGNORE,Area
-Historic,Memorial,Heritage Area,Area
-Historic,Monument,Heritage Area,Area
-Emergency,ambulance_station,IGNORE,Area
-Emergency,ambulance_station,IGNORE,Point
+Historic,Memorial,Historical Building,Area
+Historic,Monument,Historical Building,Area
+Emergency,ambulance_station,Healthcare Facility,Area
+Emergency,ambulance_station,Healthcare Facility,Point
 Emergency,Landing Site,IGNORE,Area
-Geological,Moraine,IGNORE,Line
-Geological,Moraine,IGNORE,Point
-Geological,Moraine,IGNORE,Area
-Geological,outcrop,IGNORE,Line
-Geological,outcrop,IGNORE,Area
-Geological,outcrop,IGNORE,Point
-Geological,papalaeontological site,Heritage Point,Point
-Geological,palaeontological site,Heritage Area,Area
-Geological,volcanic caldera rim,IGNORE,Line
-Geological,volcanic lava field,IGNORE,Area
-Geological,volcanic lava field,Volcanic Point,Point
-Historic,Aircraft,Airports,Point
+Geological,Moraine,Moraine,Line
+Geological,Moraine,Moraine,Point
+Geological,Moraine,Moraine,Area
+Geological,outcrop,Outcrop,Line
+Geological,outcrop,Outcrop,Area
+Geological,outcrop,Outcrop,Point
+Geological,palaeontological site,Palaeontological Site,Point
+Geological,palaeontological site,Palaeontological Site,Area
+Geological,volcanic caldera rim,Volcanic Caldera Rim,Line
+Geological,volcanic lava field,Volcanic Lava Field,Area
+Geological,volcanic lava field,Volcanic Lava Field,Point
+Historic,Aircraft,IGNORE,Point
 Historic,Aircraft,IGNORE,Area
-Historic,Aqueduct,IGNORE,Area
-Historic,Aqueduct,IGNORE,Line
-Historic,archaeological_site,IGNORE,Line
+Historic,Aqueduct,Heritage Area,Area
+Historic,Aqueduct,Heritage Area,Line
+Historic,archaeological_site,Heritage Area,Line
 Historic,archaeological_site,Heritage Area,Area
-Historic,archaeological_site,Heritage Point,Point
-Historic,battlefield,Heritage Point,Point
-Historic,battlefield,Heritage Area,Area
-Historic,bomb_crater,Heritage Area,Area
-Historic,bomb_crater,Heritage Point,Point
+Historic,archaeological_site,Heritage Area,Point
+Historic,battlefield,IGNORE,Point
+Historic,battlefield,IGNORE,Area
+Historic,bomb_crater,IGNORE,Area
+Historic,bomb_crater,IGNORE,Point
 Historic,boundary_stone,IGNORE,Point
-Historic,Buildings,Buildings,Point
-Historic,Buildings,IGNORE,Area
+Historic,Buildings,Historical Building,Point
+Historic,Buildings,Historical Building,Area
 Historic,cannon,IGNORE,Point
-Historic,castle,Buildings,Point
-Historic,castle,Heritage Area,Area
-Historic,castle_wall,Heritage Line,Line
-Historic,castle_wall,Heritage Area,Area
+Historic,castle,IGNORE,Point
+Historic,castle,IGNORE,Area
+Historic,castle_wall,IGNORE,Line
+Historic,castle_wall,IGNORE,Area
 Historic,charcoal_pile,IGNORE,Area
 Historic,charcoal_pile,IGNORE,Point
-Historic,church,Religious Buildings,Point
+Historic,church,Religious Building,Point
 Historic,church,Religious Area,Area
 Historic,city_gate,IGNORE,Area
 Historic,city_gate,IGNORE,Point
@@ -421,27 +421,27 @@ Historic,creamery,IGNORE,Point
 Historic,creamery,IGNORE,Area
 Historic,farm,IGNORE,Point
 Historic,farm,IGNORE,Area
-Historic,fort,Heritage Point,Point
+Historic,fort,Historical Building,Point
 Historic,fort,Heritage Area,Area
 Historic,highwater_mark,IGNORE,Point
 Historic,locomotive,IGNORE,Point
 Historic,locomotive,IGNORE,Area
 Historic,manor,Heritage Area,Area
-Historic,manor,Heritage Point,Point
-Historic,memorial,Heritage Point,Point
-Historic,memorial,Heritage Area,Area
+Historic,manor,Historical Building,Point
+Historic,memorial,Historical Building,Point
+Historic,memorial,Historical Building,Area
 Historic,milestone,IGNORE,Point
-Historic,monastery,Religious Buildings,Point
+Historic,monastery,Religious Building,Point
 Historic,monastery,Religious Area,Area
-Historic,monument,Heritage Point,Point
-Historic,monument,Heritage Area,Area
+Historic,monument,Heritage Area,Point
+Historic,monument,Historical Building,Area
 Historic,ruins,Heritage Area,Area
-Historic,ruins,Heritage Line,Line
-Historic,ruins,Heritage Point,Point
+Historic,ruins,Heritage Area,Line
+Historic,ruins,Historical Building,Point
 Historic,rune_stone,IGNORE,Point
 Historic,Ship,IGNORE,Point
 Historic,Ship,IGNORE,Area
-Boundary,aboriginal_lands,Indigenous Communities,Area
+Boundary,aboriginal_lands,Indigenous Community,Area
 Boundary,border_zone,IGNORE,Area
 Boundary,forest,Forest,Area
 Boundary,forest_compartment,Forest,Area
@@ -454,36 +454,36 @@ Boundary,postal_code,IGNORE,Area
 Boundary,protected_area,Protected Area,Area
 Boundary,special_economic_zone,SEZ,Area
 Boundary,disputed,IGNORE,Area
-Landuse,commercial,Urban Areas,Area
-Landuse,commercial,Buildings,Point
-Landuse,construction,Buildings,Point
-Landuse,construction,Urban Areas,Area
-Landuse,education,Urban Areas,Area
-Landuse,education,Buildings,Point
-Landuse,industrial,Buildings,Point
-Landuse,industrial,Urban Areas,Area
-Landuse,residential,Urban Areas,Area
-Landuse,residential,Buildings,Point
-Landuse,retail,Buildings,Point
-Landuse,retail,Urban Areas,Area
-Landuse,allotments,Urban Areas,Area
-Landuse,allotments,Buildings,Point
-Landuse,farmland,Land Environments,Area
-Landuse,farmyard,Land Environments,Area
-Landuse,flowerbed,Tourist Area,Area
+Landuse,commercial,Commercial,Area
+Landuse,commercial,Commercial,Point
+Landuse,construction,Building,Point
+Landuse,construction,Urban Area,Area
+Landuse,education,Educational Facility,Area
+Landuse,education,Educational Facility,Point
+Landuse,industrial,Industrial,Point
+Landuse,industrial,Industrial,Area
+Landuse,residential,Residential,Area
+Landuse,residential,Residential,Point
+Landuse,retail,Commercial Building,Point
+Landuse,retail,Commercial,Area
+Landuse,allotments,Urban Area,Area
+Landuse,allotments,Building,Point
+Landuse,farmland,Farmland,Area
+Landuse,farmyard,Farmyard,Area
+Landuse,flowerbed,IGNORE,Area
 Landuse,forest,Forest,Area
-Landuse,forest,IGNORE,Point
-Landuse,meadow,IGNORE,Point
-Landuse,meadow,Land Environments,Area
-Landuse,orchard,Land Environments,Area
-Landuse,orchard,IGNORE,Point
-Landuse,vineyard,IGNORE,Point
-Landuse,vineyard,Land Environments,Area
-Landuse,aquaculture,IGNORE,Area
-Landuse,aquaculture,IGNORE,Point
+Landuse,forest,Forest,Point
+Landuse,meadow,Meadow,Point
+Landuse,meadow,Meadow,Area
+Landuse,orchard,SEZ,Area
+Landuse,orchard,SEZ,Point
+Landuse,vineyard,Vineyard,Point
+Landuse,vineyard,Vineyard,Area
+Landuse,aquaculture,Aquaculture,Area
+Landuse,aquaculture,Aquaculture,Point
 Landuse,basin,IGNORE,Point
 Landuse,basin,IGNORE,Area
-Landuse,salt_pond,IGNORE,Area
+Landuse,salt_pond,Salt Pond,Area
 Landuse,brownfield,IGNORE,Area
 Landuse,brownfield,IGNORE,Point
 Landuse,depot,IGNORE,Area
@@ -491,88 +491,670 @@ Landuse,garages,IGNORE,Area
 Landuse,grass,IGNORE,Area
 Landuse,grass,IGNORE,Point
 Landuse,greenfield,IGNORE,Point
-Landuse,greenfield,Land Environments,Area
+Landuse,greenfield,IGNORE,Area
 Landuse,greenhouse_horticulture,IGNORE,Area
-Landuse,landfill,Landfill Area,Area
-Landuse,landfill,IGNORE,Point
-Landuse,military,Military Point,Point
-Landuse,military,Military Area,Area
+Landuse,landfill,Landfill,Area
+Landuse,landfill,Landfill,Point
+Landuse,military,Military,Point
+Landuse,military,Military,Area
 Landuse,plant_nursery,IGNORE,Area
-Landuse,port,IGNORE,Area
-Landuse,quarry,IGNORE,Area
-Landuse,quarry,Quarry Point,Point
-Landuse,railway,Railway Area,Area
-Landuse,recreation_ground,Tourist Area,Area
-Landuse,recreation_ground,Buildings,Point
-Landuse,religious,Religious Buildings,Point
+Landuse,port,Port,Area
+Landuse,quarry,Quarry,Area
+Landuse,quarry,Quarry,Point
+Landuse,railway,Railway,Area
+Landuse,recreation_ground,Urban Area,Area
+Landuse,recreation_ground,Building,Point
+Landuse,religious,Religious Building,Point
 Landuse,religious,Religious Area,Area
-Landuse,village_green,Forest,Area
-Landuse,village_green,Settlements,Point
+Landuse,village_green,Village Green,Area
+Landuse,village_green,Village Green,Point
 Landuse,winter_sports,IGNORE,Point
 Landuse,winter_sports,IGNORE,Area
-Waterway,Stream,IGNORE,Area
+Waterway,Stream,River,Area
 Boundary,special_economic_zone,SEZ,Point
-Waterway,River,Rivers,Area
+Waterway,River,River,Area
 Landuse,Residential,Residential,Point
 Landuse,port,Port,Point
 Boundary,national_park,National Park,Point
 Natural,Water,IGNORE,Point
-voltage,8,TV_8,Line
-voltage,8kV,TV_8,Line
-voltage,8000,TV_8,Line
-voltage,8000V,TV_8,Line
-voltage,11,TV_11,Line
-voltage,11kV,TV_11,Line
-voltage,11000,TV_11,Line
-voltage,11000V,TV_11,Line
-voltage,22,TV_22,Line
-voltage,22kV,TV_22,Line
-voltage,22000,TV_22,Line
-voltage,22000V,TV_22,Line
-voltage,33,TV_33,Line
-voltage,33kV,TV_33,Line
-voltage,33000,TV_33,Line
-voltage,33000V,TV_33,Line
-voltage,44,TV_44,Line
-voltage,44kV,TV_44,Line
-voltage,44000,TV_44,Line
-voltage,44000V,TV_44,Line
-voltage,55,TV_55,Line
-voltage,55kV,TV_55,Line
-voltage,55000,TV_55,Line
-voltage,55000V,TV_55,Line
-voltage,88,TV_88,Line
-voltage,88kV,TV_88,Line
-voltage,88000,TV_88,Line
-voltage,88000V,TV_88,Line
-voltage,275,TV_275,Line
-voltage,275kV,TV_275,Line
-voltage,275000,TV_275,Line
-voltage,275000V,TV_275,Line
-voltage,500,TV_500,Line
-voltage,500kV,TV_500,Line
-voltage,500000,TV_500,Line
-voltage,500000V,TV_500,Line
-voltage,400000,TV_400,Line
-voltage,765000,TV_765,Line
-voltage,132000,TV_132,Line
-voltage,25000,TV_25,Line
-plant:method,combustion,PowerPlant,Point
-plant:method,photovoltaic,PowerPlant,Point
-plant:output:electricity,875 MW,PowerPlantCapacity,Point
-plant:output:electricity,1738 MW,PowerPlantCapacity,Point
-plant:output:electricity,yes,PowerPlantCapacity,Point
-plant:output:electricity,28 MW,PowerPlantCapacity,Point
-plant:output:electricity,48 MW,PowerPlantCapacity,Point
-plant:output:electricity,814 MW,PowerPlantCapacity,Point
-plant:source,solar,PowerPlantSource,Point
-plant:source,gas,PowerPlantSource,Point
-plant:source,gas;oil,PowerPlantSource,Point
-plant:source,hydro,PowerPlantSource,Point
-plant:source,biomass,PowerPlantSource,Point
-generator:method,wind_turbine,WindTurbines,Point
-generator:method,combustion,PowerPlant,Point
-generator:method,photovoltaic,PowerPlant,Point
-generator:source,wind,WindTurbines,Point
-generator:source,solar,PowerPlantSource,Point
-generator:source,gas,PowerPlantSource,Point
+voltage,8,8 kV Transmission Line,Line
+voltage,8kV,8 kV Transmission Line,Line
+voltage,8000,8 kV Transmission Line,Line
+voltage,8000V,8 kV Transmission Line,Line
+voltage,11,11 kV Transmission Line,Line
+voltage,11kV,11 kV Transmission Line,Line
+voltage,11000,11 kV Transmission Line,Line
+voltage,11000V,11 kV Transmission Line,Line
+voltage,22,22 kV Transmission Line,Line
+voltage,22kV,22 kV Transmission Line,Line
+voltage,22000,22 kV Transmission Line,Line
+voltage,22000V,22 kV Transmission Line,Line
+voltage,33,33 kV Transmission Line,Line
+voltage,33kV,33 kV Transmission Line,Line
+voltage,33000,33 kV Transmission Line,Line
+voltage,33000V,33 kV Transmission Line,Line
+voltage,44,44 kV Transmission Line,Line
+voltage,44kV,44 kV Transmission Line,Line
+voltage,44000,44 kV Transmission Line,Line
+voltage,44000V,44 kV Transmission Line,Line
+voltage,55,55 kV Transmission Line,Line
+voltage,55kV,55 kV Transmission Line,Line
+voltage,55000,55 kV Transmission Line,Line
+voltage,55000V,55 kV Transmission Line,Line
+voltage,88,88 kV Transmission Line,Line
+voltage,88kV,88 kV Transmission Line,Line
+voltage,88000,88 kV Transmission Line,Line
+voltage,88000V,88 kV Transmission Line,Line
+voltage,275,275 kV Transmission Line,Line
+voltage,275kV,275 kV Transmission Line,Line
+voltage,275000,275 kV Transmission Line,Line
+voltage,275000V,275 kV Transmission Line,Line
+voltage,500,500 kV Transmission Line,Line
+voltage,500kV,500 kV Transmission Line,Line
+voltage,500000,500 kV Transmission Line,Line
+voltage,500000V,500 kV Transmission Line,Line
+voltage,400000,400 kV Transmission Line,Line
+voltage,765000,765 kV Transmission Line,Line
+voltage,132000,132 kV Transmission Line,Line
+voltage,25000,25 kV Transmission Line,Line
+plant:method,combustion,Power Plant,Point
+plant:method,photovoltaic,Solar Power Plant,Point
+plant:source,solar,Solar Power Plant,Point
+plant:source,gas,Gas-Fired Power Plant,Point
+plant:source,hydro,Hydropower Plant,Point
+plant:source,biomass,Biogas Plant,Point
+generator:method,wind_turbine,IGNORE,Point
+generator:method,combustion,IGNORE,Point
+generator:method,photovoltaic,IGNORE,Point
+generator:source,wind,Wind Farm,Point
+generator:source,solar,Solar Power Plant,Point
+generator:source,gas,IGNORE,Point
+amenity,Buildings,Building,Point
+power,plant,Power Plant,Point
+power,substation,Substation,Point
+amenity,Buildings,Building,Area
+power,plant,Power Plant,Area
+power,substation,Substation,Area
+tourism,attraction,Tourist Area,Line
+tourism,attraction,Tourist Area,Point
+tourism, zoo,Tourist Area,Point
+tourism, zoo,Tourist Area,Area
+tourism, museum,Tourist Area,Point
+tourism, museum,Tourist Area,Area
+tourism, gallery,Tourist Area,Point
+tourism, gallery,Tourist Area,Area
+industrial,shipyard,Shipyard,Point
+industrial,shipyard,Shipyard,Area
+aeroway,heliport,Helipad,Point
+aeroway,heliport,Helipad,Area
+surface,Asphalt,Asphalt Road,Area
+surface,Asphalt,Asphalt Road,Line
+surface,concrete,Concrete Road,Line
+surface,concrete,Concrete Road,Area
+water,lake,Lake,Area
+water,lake,Lake,Point
+water, basin,Lake,Point
+water, basin,Lake,Area
+water, pond,Lake,Point
+water, pond,Lake,Area
+water,reservoir,Reservoir,Point
+water,reservoir,Reservoir,Area
+defensive works,bastion,Military,Point
+defensive works,bastion,Military,Area
+highway,tracks,Track,Line
+highway,tracks,Track,Area
+highway,Pedestrian,Road,Line
+highway,Pedestrian,Road,Area
+highway,primary link,Road,Line
+highway,primary link,Road,Area
+highway,teritiary link,Road,Line
+highway,teritiary link,Road,Area
+highway,secondary link,Road,Line
+highway,secondary link,Road,Area
+historic,heritage,Historical Building,Point
+historic,heritage,Historical Building,Area
+historic,shrine,Religious Building,Point
+historic,shrine,Religious Building,Area
+man_made,pipeline,Pipeline,Line
+man_made,pier,Pier,Point
+man_made,pier,Pier,Area
+military,barracks,Military,Point
+military,airfield,Military,Point
+military,office,Military,Point
+military,danger area,Military,Point
+military,checkpoint,Military,Point
+military,training area,Military,Point
+military,bunker,Military,Point
+military,barracks,Military,Area
+military,airfield,Military,Area
+military,office,Military,Area
+military,danger area,Military,Area
+military,checkpoint,Military,Area
+military,training area,Military,Area
+military,bunker,Military,Area
+natural,desert,Desert,Area
+natural,desert,Desert,Point
+social_facility,nursing home,Healthcare Facility,Point
+social_facility, group home,Healthcare Facility,Point
+social_facility,nursing home,Healthcare Facility,Area
+social_facility, group home,Healthcare Facility,Area
+building:levels,4,IGNORE,Point
+building:levels,6,IGNORE,Point
+building:levels,10,IGNORE,Point
+building:levels,14,IGNORE,Point
+building:levels,4,IGNORE,Area
+building:levels,6,IGNORE,Area
+building:levels,10,IGNORE,Area
+building:levels,14,IGNORE,Area
+ruins,castle,Historical Building,Area
+ruins,building,Historical Building,Area
+ruins,house,Historical Building,Area
+ruins,castle,Historical Building,Point
+ruins,building,Historical Building,Point
+ruins,house,Historical Building,Point
+seamark:harbour:category,marina,Marina,Point
+seamark:type,harbour,Harbour,Point
+Harbour,yes,Harbour,Point
+landuse,harbour ,Harbour,Point
+healthcare,pharmacy,Healthcare Facility,Point
+healthcare,hospital,Healthcare Facility,Point
+office,buildings  ,Commercial Building,Point
+Harbour,yes,Harbour,Area
+landuse,harbour ,Harbour,Area
+healthcare,pharmacy,Healthcare Facility,Area
+healthcare,hospital,Healthcare Facility,Area
+office,buildings  ,Commercial Building,Area
+tower:type,communication,Communication Tower,Point
+route,road ,Road,Line
+aerodrome,international,Public Airport,Point
+aerodrome,international,Public Airport,Area
+landuse,industrial,Industrial,Area
+landuse,scrub,Shrubland,Area
+landuse,grassland,Grassland,Area
+landuse,industrial,Industrial,Point
+landuse,scrub,Shrubland,Point
+landuse,grassland,Grassland,Point
+tracktype,grade1,Track,Line
+tracktype,grade2,Track,Line
+tracktype,grade3,Track,Line
+tracktype,grade4,Track,Line
+tracktype,grade5,Track,Line
+wetland,marsh,Wetland,Point
+wetland,marsh,Wetland,Area
+wetland,mangrove,Wetland,Point
+wetland,mangrove,Wetland,Area
+wetland,swamp,Wetland,Point
+wetland,swamp,Wetland,Area
+wetland,bog,Wetland,Point
+wetland,bog,Wetland,Area
+wetland,peat bog,Wetland,Point
+wetland,peat bog,Wetland,Area
+ford,yes,Road,Point
+ford,yes,Road,Area
+waterway,dam,Dam,Area
+waterway,weir,Weir,Area
+waterway,boatyard,Boatyard,Area
+waterway,dam,Dam,Point
+waterway,weir,Weir,Point
+waterway,boatyard,Boatyard,Point
+waterway,dam,Dam,Line
+waterway,weir,Weir,Line
+waterway,boatyard,Boatyard,Line
+desert,erg,Desert,Point
+desert,salt,Desert,Point
+desert,erg,Desert,Area
+desert,salt,Desert,Area
+railway,rail,Railway,Line
+embankment,yes,Embankment,Point
+consulate,honorary consul,Diplomatic Institution,Point
+embankment,yes,Embankment,Area
+consulate,honorary consul,Diplomatic Institution,Area
+station,substation,Substation,Area
+station,substation,Substation,Point
+station,monorail,Railway,Line
+station,light rail,Railway,Line
+aerodrome:type,military,Military,Point
+aerodrome:type,public,Public Airport,Point
+aerodrome:type,military,Military,Area
+aerodrome:type,public,Public Airport,Area
+leaf_cycle,deciduous,Deciduous Tree,Point
+leaf_cycle,deciduous,Deciduous Tree,Area
+diplomatic,embassy,Diplomatic Institution,Area
+diplomatic,consulate,Diplomatic Institution,Area
+diplomatic,liaison,Diplomatic Institution,Area
+diplomatic,embassy,Diplomatic Institution,Point
+diplomatic,consulate,Diplomatic Institution,Point
+diplomatic,liaison,Diplomatic Institution,Point
+leaf_cycle,evergreen,Evergreen Tree,Point
+leaf_cycle,mixed,Mixed Tree,Point
+leaf_cycle,evergreen,Evergreen Tree,Line
+leaf_cycle,mixed,Mixed Tree,Line
+leaf_cycle,evergreen,Evergreen Tree,Area
+leaf_cycle,mixed,Mixed Tree,Area
+studio,radio,Commercial Building,Point
+studio,television,Commercial Building,Point
+studio,radio,Commercial Building,Area
+studio,television,Commercial Building,Area
+building:use,hotel,Tourist Accomodation,Area
+building:use,industrial,Commercial Building,Area
+building:use,office,Commercial Building,Area
+building:use,residential,Residential Building,Area
+building:use,hotel,Tourist Accomodation,Point
+building:use,industrial,Commercial Building,Point
+building:use,office,Commercial Building,Point
+building:use,residential,Residential Building,Point
+shoulder,yes,Shoulder Road,Line
+shoulder,right,Shoulder Road,Line
+shoulder,both,Shoulder Road,Line
+shoulder,left,Shoulder Road,Line
+shoulder,yes,Shoulder Road,Area
+shoulder,right,Shoulder Road,Area
+shoulder,both,Shoulder Road,Area
+shoulder,left,Shoulder Road,Area
+hazard,landslides,Landslide,Area
+hazard,landslides,Landslide,Line
+hazard,landslides,Landslide,Point
+memorial,Statue,Historical Building,Point
+memorial,war memorial,Historical Building,Point
+healthcare:speciality,radiology,Healthcare Facility,Point
+healthcare:speciality,fertility,Healthcare Facility,Point
+health_facility:type,dispensary,Healthcare Facility,Point
+health_facility:type,health centre,Healthcare Facility,Point
+memorial,Statue,Historical Building,Area
+memorial,war memorial,Historical Building,Area
+healthcare:speciality,radiology,Healthcare Facility,Area
+healthcare:speciality,fertility,Healthcare Facility,Area
+health_facility:type,dispensary,Healthcare Facility,Area
+health_facility:type,health centre,Healthcare Facility,Area
+protect_class,1a,IUCN Ia,Area
+protect_class,1b,IUCN Ib,Area
+protect_class,2,IUCN II,Area
+protect_class,3,IUCN III,Area
+protect_class,4,IUCN IV,Area
+protect_class,5,IUCN V,Area
+protect_class,6,IUCN VI,Area
+protect_class,1a,IUCN Ia,Point
+protect_class,1b,IUCN Ib,Point
+protect_class,2,IUCN II,Point
+protect_class,3,IUCN III,Point
+protect_class,4,IUCN IV,Point
+protect_class,5,IUCN V,Point
+protect_class,6,IUCN VI,Point
+generator:source,nuclear,Nuclear Power Plant,Point
+generator:source,oil,Oil Fired Power Plant,Point
+generator:source,nuclear,Nuclear Power Plant,Area
+generator:source,oil,Oil Fired Power Plant,Area
+plant:source,nuclear,Nuclear Power Plant,Point
+plant:source,nuclear,Nuclear Power Plant,Area
+plant:source,wind,Wind Farm,Point
+plant:source,wind,Wind Farm,Area
+plant:source,battery,Battery Storage Plant,Point
+plant:source,battery,Battery Storage Plant,Area
+plant:source,coal,Coal Fired Power Plant,Point
+plant:source,coal,Coal Fired Power Plant,Area
+plant:source,oil,Oil Fired Power Plant,Point
+plant:source,oil,Oil Fired Power Plant,Area
+plant:source,waste,Waste Incineration Plant,Point
+plant:source,waste,Waste Incineration Plant,Area
+plant:source,geothermal,Geothermal Power Plant,Point
+plant:source,geothermal,Geothermal Power Plant,Area
+protection_title,National parks,National Park,Area
+protection_title,National parks,National Park,Point
+abandoned:highway,track,Broken Road,Line
+abandoned:highway,track,Broken Road,Area
+abandoned:highway,unclassified,Broken Road,Line
+abandoned:highway,unclassified,Broken Road,Area
+abandoned:highway,primary,Broken Road,Line
+abandoned:highway,primary,Broken Road,Area
+abandoned:highway,,Broken Road,Line
+abandoned:highway,,Broken Road,Area
+disused:amenity,caf鬄isused Building,Point
+disused:amenity,caf鬄isused Building,Area
+disused:amenity,pub,Disused Building,Point
+disused:amenity,pub,Disused Building,Area
+substation,transmission,Substation,Point
+substation,transmission,Substation,Area
+substation,minor distribution.,Substation,Point
+substation,minor distribution.,Substation,Area
+industrial,shipyard,Shipyard,Point
+industrial,shipyard,Shipyard,Area
+seaway,port,Port,Point
+seaway,cargo_port,Port,Point
+seaway,cruise_port,Port,Point
+seaway,ferry_port,Port,Point
+industrial,port,Port,Point
+seaway,port,Port,Line
+seaway,cargo_port,Port,Line
+seaway,cruise_port,Port,Line
+seaway,ferry_port,Port,Line
+industrial,port,Port,Line
+industrial,mine,Mine,Point
+industrial,mine,Mine,Area
+site,wind farm,Wind Farm,Area
+site,wind farm,Wind Farm,Point
+attraction,animal,IGNORE,Point
+attraction,roller coaster,Tourist Area,Point
+attraction,roller coaster,Tourist Area,Line
+attraction,roller coaster,Tourist Area,Area
+attraction,train,IGNORE,Line
+attraction,maze,IGNORE,Area
+attraction,maze,IGNORE,Point
+voltage:secondary,400,IGNORE,Point
+voltage:secondary,...,IGNORE,Point
+zoo,safari park,Tourist Area,Point
+zoo,safari park,Tourist Area,Area
+Pont,yes,Bridge,Line
+guest_house,bed and breakfast,Tourist Accomodation,Point
+guest_house,bed and breakfast,Tourist Accomodation,Area
+laundry_service,yes,Commercial Building,Point
+laundry_service,yes,Commercial Building,Area
+e-road:class,A-intermediate,IGNORE,Point
+e-road:class,A-intermediate,IGNORE,Area
+bridge:structure,humpback,IGNORE,Point
+bridge:structure,humpback,IGNORE,Line
+bridge:structure,beam,IGNORE,Point
+bridge:structure,beam,IGNORE,Line
+bridge:structure,suspension,IGNORE,Point
+bridge:structure,suspension,IGNORE,Line
+disused,quarry,Disused Quarry,Point
+disused,quarry,Disused Quarry,Area
+disused:landuse,quarry,Disused Quarry,Point
+disused:landuse,quarry,Disused Quarry,Area
+disused:man_made,quarry,Disused Quarry,Point
+disused:man_made,quarry,Disused Quarry,Area
+site_type,roman wall,Historical Building,Point
+site_type,roman wall,Historical Building,Area
+site_type,fortification,Historical Building,Point
+site_type,fortification,Historical Building,Area
+site_type,building,Historical Building,Point
+site_type,building,Historical Building,Area
+site_type,stone circle,Historical Building,Point
+site_type,stone circle,Historical Building,Area
+denotation,natural_monument,Protected Tree,Point
+basin,detention,Detention Basin,Point
+basin,detention,Detention Basin,Area
+basin,retention,Retention Basin,Point
+basin,retention,Retention Basin,Area
+landcover,bushes,Shrubland,Point
+landcover,bushes,Shrubland,Area
+landcover,beach,Beach,Point
+landcover,beach,Beach,Area
+landcover,grass,Grassland,Point
+landcover,grass,Grassland,Area
+proposed,rail,Upcoming Railway,Point
+proposed,tram,Upcoming Railway,Point
+proposed,light_rail,Upcoming Railway,Point
+proposed,rail,Upcoming Railway,Line
+proposed,tram,Upcoming Railway,Line
+proposed,light_rail,Upcoming Railway,Line
+proposed,rail,Upcoming Railway,Area
+proposed,tram,Upcoming Railway,Area
+proposed,light_rail,Upcoming Railway,Area
+proposed,subway,Upcoming Railway,Point
+proposed,subway,Upcoming Railway,Area
+proposed,monorail,Upcoming Railway,Point
+proposed,train,Upcoming Railway,Line
+proposed,monorail,Upcoming Railway,Point
+proposed,train,Upcoming Railway,Line
+closed:amenity,caf鬄isused Building,Point
+closed:amenity,building,Disused Building,Point
+closed:amenity,caf鬄isused Building,Area
+closed:amenity,building,Disused Building,Area
+bay,fjord,Fjord,Point
+bay,fjord,Fjord,Line
+bay,fjord,Fjord,Area
+archaeological_site,castle ,Historical Building,Point
+archaeological_site,castle ,Historical Building,Area
+school,primary,Educational Facility,Point
+school,primary,Educational Facility,Area
+school,secondary,Educational Facility,Point
+school,secondary,Educational Facility,Area
+school,residential,Educational Facility,Point
+school,residential,Educational Facility,Area
+castle_type,defensive,Historical Building,Point
+castle_type,defensive,Historical Building,Area
+castle_type,stately,Historical Building,Point
+castle_type,stately,Historical Building,Area
+castle_type,palace,Historical Building,Point
+castle_type,palace,Historical Building,Area
+proposed:power,plant,Upcoming Power Plant,Point
+proposed:power,plant,Upcoming Power Plant,Area
+weather:radar,yes,Weather Monitoring Station,Point
+communication:radio,yes,Communication Tower,Point
+communication:radio,yes,Communication Tower,Area
+disused:building,yes,Disused Building,Point
+disused:building,yes,Disused Building,Area
+aeroway:type,private  ,Private Airport,Point
+aeroway:type,private  ,Private Airport,Area
+proposed:highway,residential,Upcoming Road,Line
+proposed:highway,residential,Upcoming Road,Area
+proposed:highway,crossing,Upcoming Road,Line
+proposed:highway,crossing,Upcoming Road,Area
+proposed:highway,secondary,Upcoming Road,Line
+proposed:highway,secondary,Upcoming Road,Area
+proposed:highway,unclassified,Upcoming Road,Line
+proposed:highway,unclassified,Upcoming Road,Area
+community_centre,youth centre,Building,Point
+community_centre,youth centre,Building,Area
+community_centre,building,Building,Point
+community_centre,building,Building,Area
+natural_protection,water protection area,Legally Protected Land,Point
+natural_protection,water protection area,Legally Protected Land,Area
+parish,building,Religious Building,Point
+parish,building,Religious Building,Area
+flood_prone,yes,Flooding,Point
+flood_prone,seasonal,Seasonal Flooding,Point
+flood_prone,yes,Flooding,Line
+flood_prone,seasonal,Seasonal Flooding,Line
+flood_prone,yes,Flooding,Area
+flood_prone,seasonal,Seasonal Flooding,Area
+polling_station,yes,Building,Point
+polling_station,yes,Building,Area
+seamark:notice:category,limited headroom,IGNORE,Point
+seamark:notice:category,waterskiing permitted,IGNORE,Point
+seamark:notice:function,information,IGNORE,Point
+seamark:notice:impact,upstream,IGNORE,Point
+seamark:notice:impact,downstream,IGNORE,Point
+mooring,cruise,Mooring,Line
+mooring,yes,Mooring,Line
+mooring,commercial,Mooring,Line
+proposed:railway,station,Upcoming Railway,Point
+proposed:railway,station,Upcoming Railway,Area
+light_rail,regular,Railway,Line
+light_rail,yes,Railway,Line
+highway:category:pl,1,National Road,Line
+highway:category:pl,2,Provincial Road,Line
+highway:category:pl,3,District Road,Line
+highway:category:pl,4,Municipal Road,Line
+maxaxleload,8,IGNORE,Line
+maxaxleload,10,IGNORE,Line
+maxaxleload,11.5,IGNORE,Line
+proposed:building,yes,Upcoming Building,Point
+property,private,Residential Building,Point
+proposed:building,yes,Upcoming Building,Area
+property,private,Residential Building,Area
+property,condominium,Residential Building,Area
+property,condominium,Residential Building,Point
+bunker_type,pillbox,Military,Point
+bunker_type,pillbox,Military,Area
+bunker_type, medical,Military,Point
+bunker_type, medical,Military,Area
+bunker_type, technical,Military,Point
+bunker_type, technical,Military,Area
+bunker_type, gun_emplacement,Military,Point
+bunker_type, gun_emplacement,Military,Area
+mountain_pass,yes,Mountain Pass,Area
+area:highway,footway,Road,Area
+area:highway, emergency,Road,Area
+area:highway, service,Road,Area
+highway:area,service,Road,Area
+highway:area, unclassified,Road,Area
+health_specialty:radiology,TRUE,Healthcare Facility,Area
+health_specialty:radiology,TRUE,Healthcare Facility,Point
+supermarket,yes,Commercial Building,Point
+supermarket,yes,Commercial Building,Area
+aquaculture,fish,Aquaculture,Point
+aquaculture,fish,Aquaculture,Area
+car_wash,yes,Commercial Building,Point
+car_wash,yes,Commercial Building,Area
+preschool,yes,Educational Facility,Point
+preschool,yes,Educational Facility,Area
+hazard_prone,yes,Flooding,Area
+hazard_type,flood,Flooding,Area
+hazard_type,landslide,Landslide,Area
+hazard_type,avalanche,Avalanche,Area
+natural:actual,landslide ,Landslide ,Area
+hazard_prone,yes,Flooding,Point
+hazard_type,flood,Flooding,Point
+hazard_type,landslide,Landslide,Point
+hazard_type,avalanche,Avalanche,Point
+natural:actual,landslide ,Landslide ,Point
+hazard_prone,yes,Flooding,Line
+hazard_type,flood,Flooding,Line
+hazard_type,landslide,Landslide,Line
+hazard_type,avalanche,Avalanche,Line
+natural:actual,landslide ,Landslide ,Line
+destroyed:building,garages,IGNORE,Point
+destroyed:building,apartments,IGNORE,Point
+destroyed:building,schools,IGNORE,Point
+destroyed:highway,residential,IGNORE,Line
+destroyed:highway,service,IGNORE,Line
+ice_road,yes,Ice Road,Line
+ice_road,yes,Ice Road,Area
+winter_road,yes,Winter Road,Line
+winter_road,yes,Winter Road,Area
+mast:type,communication,Communication Tower,Point
+museum,technology,Commercial Building,Area
+museum,technology,Commercial Building,Point
+museum,art,Commercial Building,Area
+museum,art,Commercial Building,Point
+museum,money,Commercial Building,Area
+museum,money,Commercial Building,Point
+museum,archaeological,Commercial Building,Area
+museum,archaeological,Commercial Building,Point
+building:levels:underground,1,IGNORE,Point
+building:levels:underground,2,IGNORE,Point
+building:levels:underground,3,IGNORE,Point
+building:levels:underground,6,IGNORE,Point
+building:levels:underground,1,IGNORE,Area
+building:levels:underground,2,IGNORE,Area
+building:levels:underground,3,IGNORE,Area
+building:levels:underground,6,IGNORE,Area
+building:levels:underground,...,IGNORE,Area
+seamark:small_craft_facility:category,slipway,IGNORE,Point
+seamark:small_craft_facility:category,fuel station,IGNORE,Point
+seamark:small_craft_facility:category,boatyard,IGNORE,Point
+disused:highway,...........................................,Disused Road,Area
+disused:highway,...........................................,Disused Road,Line
+monitoring:weather,yes,Weather Monitoring Station,Point
+monitoring:weather,wind,Wind Mast,Point
+natural,reef,Reef,Point
+natural,reef,Reef,Area
+reef,coral,Coral Reef,Point
+reef,coral,Coral Reef,Area
+subsea,reef,Reef,Point
+subsea,reef,Reef,Area
+subsea,coral reef,Coral Reef,Point
+subsea,coral reef,Coral Reef,Area
+monorail,yes,Railway,Line
+estuary,yes,Estuary,Point
+estuary,yes,Estuary,Area
+seamark:radar_transponder:group,K,IGNORE,Point
+seamark:radar_transponder:group,G,IGNORE,Point
+dock,drydock,Drydock,Point
+waterway,dock,Dock,Point
+dock,drydock,Drydock,Area
+waterway,dock,Dock,Area
+tomb,columbarium,Cemetery,Area
+tomb,columbarium,Cemetery,Point
+pedestrian,highway,Road,Line
+pedestrian,highway,Road,Area
+ruins:building,yes,Historical Building,Point
+ruins:building,yes,Historical Building,Area
+Manmade,breakwater,Breakwater,Area
+Manmade,breakwater,Breakwater,Line
+Bunker type,pillbox,Military,Point
+Bunker type,pillbox,Military,Area
+Tower type,communication,Communication Tower,Point
+Building level,1,Building,Point
+Building level,3,Building,Point
+Building level,1,Building,Area
+Building level,3,Building,Area
+Place ,farm,Farm,Point
+Place ,farm,Farm,Area
+ruins,church,Religious Building,Point
+ruins,church,Religious Building,Area
+Place ,isolated dwelling,Building,Point
+Place ,isolated dwelling,Building,Area
+protection_title,State Park,State Park,Point
+protection_title,State Park,State Park,Area
+protection_title,State Forest,State Forest,Point
+protection_title,State Forest,State Forest,Area
+protection_title,National Forest,National Forest,Point
+protection_title,National Forest,National Forest,Area
+protection_title,Special Protected Area,Special Protected Area,Point
+protection_title,Special Protected Area,Special Protected Area,Area
+protection_title,Wildlife Sanctuary,Wildlife Sanctuary,Point
+protection_title,Wildlife Sanctuary,Wildlife Sanctuary,Area
+man_made,Quay,Quay,Point
+man_made,Quay,Quay,Area
+leisure,Slipway,Slipway,Point
+leisure,Slipway,Slipway,Line
+natural,glacier,Glacier,Point
+natural,glacier,Glacier,Area
+geological,palaeontological_site,Palaeontological Site,Point
+geological,palaeontological_site,Palaeontological Site,Area
+landuse,animal_keeping,Animal Keeping,Point
+landuse,animal_keeping,Animal Keeping,Area
+natural,moor ,Moor,Point
+natural,Fell,Fell,Point
+natural,moor ,Moor,Area
+natural,Fell,Fell,Area
+natural,Tundra,Tundra,Point
+natural,Tundra,Tundra,Area
+natural,Heath,Heathland,Point
+natural,Heath,Heathland,Area
+wetland,marsh,Marsh,Point
+wetland,marsh,Marsh,Area
+wetland,saltmarsh,Salt Marsh,Point
+wetland,saltmarsh,Salt Marsh,Area
+natural,blowhole,Blowhole,Point
+natural,blowhole,Blowhole,Area
+natural,Geyser,Geyser,Point
+natural,Geyser,Geyser,Point
+natural,hot_spring,Hot Spring,Point
+natural,hot_spring,Hot Spring,Area
+natural,Fumarole,Fumarole,Point
+natural,Fumarole,Fumarole,Area
+wetland,tidalflat,Tidal Flat,Point
+wetland,tidalflat,Tidal Flat,Area
+power,cable,Power Cable,Line
+Military,Naval Base,Military,Point
+Military,Check Point,Military,Point
+Military,Naval Base,Military,Area
+Military,Check Point,Military,Area
+military,danger_area,Military Risk,Point
+hazard,Minefield,Minefield,Point
+waterway,offshore_field,Oil And Gas Field,Point
+waterway,hydrocarbon_field,Oil And Gas Field,Point
+man_made,oil_field,Oil And Gas Field,Point
+man_made,oilfield,Oil And Gas Field,Point
+man_made,gasfield,Oil And Gas Field,Point
+man_made,gas_field,Oil And Gas Field,Point
+landuse,orchard,Orchard,Point
+amenity,research_institute,Research Facility,Point
+hazard,unexploded_ordnance,Unexploded Ordnance,Point
+natural,volcano,Volcano,Point
+hazard,quicksand,Quicksand,Line
+hazard,quicksand,Quicksand,Area
+military,danger_area,Military Risk,Area
+hazard,Minefield,Minefield,Area
+waterway,offshore_field,Oil And Gas Field,Area
+waterway,hydrocarbon_field,Oil And Gas Field,Area
+man_made,oil_field,Oil And Gas Field,Area
+man_made,oilfield,Oil And Gas Field,Area
+man_made,gasfield,Oil And Gas Field,Area
+man_made,gas_field,Oil And Gas Field,Area
+landuse,orchard,Orchard,Area
+amenity,research_institute,Research Facility,Area
+hazard,unexploded_ordnance,Unexploded Ordnance,Area
