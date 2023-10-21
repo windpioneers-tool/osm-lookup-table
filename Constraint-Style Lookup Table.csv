@@ -30,7 +30,7 @@ Breakwater,Natural Environment,style_Breakwater,0.5,1,2
 Bridge,Built Environment,style_Bridge,0,0,0
 Broken Road,Transport,style_Roads,0.3,0.5,1
 Building,Built Environment,style_Buildings,0.15,0.3,0.6
-Cemetry,Land Use,style_Cemetry,0.5,1,2
+Cemetery,Land Use,style_Cemetery,0.5,1,2
 Coal-Fired Power Plant,Power,style_NonRenewableEnergyPowerStation,0.5,1,2
 Coastline,Natural Environment,style_InlandWater,0,0,0
 Commercial,Land Use,style_Settlements,0,0,0
