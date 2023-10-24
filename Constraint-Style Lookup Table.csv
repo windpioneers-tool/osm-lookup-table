@@ -26,12 +26,13 @@ Bird Risk Area,Designated Areas,style_BirdRisk,0.5,1,2
 Blowhole,Natural Environment,style_geyser,0.5,1,2
 Blowhole,Natural Environment,style_InlandWater,0,0,0
 Boatyard,Marine Environment,style_Ports,0.5,1,2
+Boundary,Administrative,style_Boundary,0.5,1,2
 Breakwater,Natural Environment,style_Breakwater,0.5,1,2
 Bridge,Built Environment,style_Bridge,0,0,0
 Broken Road,Transport,style_Roads,0.3,0.5,1
 Building,Built Environment,style_Buildings,0.15,0.3,0.6
 Cemetry,Land Use,style_Cemetry,0.5,1,2
-Coal-Fired Power Plant,Power,style_NonRenewableEnergyPowerStation,5,10,15
+Coal Fired Power Plant,Power,style_NonRenewableEnergyPowerStation,5,10,15
 Coastline,Natural Environment,style_InlandWater,0,0,0
 Commercial,Land Use,style_Settlements,0,0,0
 Commercial Building,Built Environment,style_Buildings,0.5,1,2
@@ -87,10 +88,10 @@ Indigenous Community,Other,style_IndigenousCommunities,0.5,1,2
 Industrial,Land Use,style_Industrial,0.5,1,2
 IUCN Ia,Designated Areas,style_IUCN,0.5,1,2
 IUCN Ib,Designated Areas,style_IUCN,0.5,1,2
-IUCN II ,Designated Areas,style_IUCN,0.5,1,2
+IUCN II,Designated Areas,style_IUCN,0.5,1,2
 IUCN III,Designated Areas,style_IUCN,0.5,1,2
 IUCN IV,Designated Areas,style_IUCN,0.5,1,2
-IUCN V ,Designated Areas,style_IUCN,0.5,1,2
+IUCN V,Designated Areas,style_IUCN,0.5,1,2
 IUCN VI,Designated Areas,style_IUCN,0.5,1,2
 Lake,Natural Environment,style_InlandWater,0.1,0.3,0.5
 Landfill,Land Use,style_Landfill,0.5,1,2
