@@ -1,20 +1,20 @@
 OSM Tags,OSM Values,Constraint Name,Constraint Type
 Highway,Primary,Primary Road,Line
-Highway,Secondary,Secondary Road,Line
-Highway,Tertiary,Tertiary Road,Line
+Highway,Secondary,Road,Line
+Highway,Tertiary,Road,Line
 Highway,Unclassified,Road,Line
 Highway,Path,Road,Line
 Highway,Trunk,Road,Line
 Highway,Service,Road,Line
-Highway,Residential,Residential Road,Line
+Highway,Residential,Road,Line
 Highway,Path,Road,Line
 Highway,Track,Track,Line
 Highway,Cycleway,IGNORE,Line
 Highway,Footway,IGNORE,Line
-Highway,Motorway,Road,Line
+Highway,Motorway,Primary Road,Line
 Highway,Motorway Link,Road,Line
 Highway,Lanes,IGNORE,Line
-Highway,Trunk Link,Road,Line
+Highway,Trunk Link,Primary Road,Line
 Highway,Primary Link,Road,Line
 Highway,Secondary Link,Road,Line
 Highway,Tertiary Link,Road,Line
@@ -27,15 +27,15 @@ Highway,Busway,Road,Line
 Highway,Bridleway,IGNORE,Line
 Highway,Steps,IGNORE,Line
 Highway,Corridor,IGNORE,Line
-Highway,Path,Road,Line
+Highway,Path,Track,Line
 Footway,Sidewalk,IGNORE,Line
 Footway,Crossing,Road,Line
-Cycleway,Opposite,Road,Line
-Cycleway,Opposite Lane,Road,Line
-Cycleway,Opposite Track,Road,Line
-Cycleway,Share busway,Road,Line
-Cycleway,Opposite Share busway,Road,Line
-Cycleway,Shared Lane,Road,Line
+Cycleway,Opposite,IGNORE,Line
+Cycleway,Opposite Lane,IGNORE,Line
+Cycleway,Opposite Track,IGNORE,Line
+Cycleway,Share busway,IGNORE,Line
+Cycleway,Opposite Share busway,IGNORE,Line
+Cycleway,Shared Lane,IGNORE,Line
 Busway,Lane,Road,Line
 Highway,Proposed,IGNORE,Line
 Highway,Construction,Road,Line
@@ -76,10 +76,10 @@ admin_level,6,Admin Boundary,Line
 admin_level,7,Admin Boundary,Line
 admin_level,8,Admin Boundary,Line
 admin_level,9,Admin Boundary,Line
-admin_level,10,IGNORE,Line
+admin_level,10,Admin Boundary,Line
 admin_level,11,Admin Boundary,Line
 Power,Line,Grid,Line
-Natural,Water,IGNORE,Area
+Natural,Water,Lake,Area
 Natural,Mud,IGNORE,Area
 Natural,Wood,Forest,Area
 Natural,Coastline,Coastline,Area
@@ -111,10 +111,10 @@ Boundary,Postal Code,IGNORE,Line
 Aeroway,Gate,IGNORE,Point
 Aeroway,Taxiway,Airport,Line
 Aeroway,Runway,Airport,Line
-Aeroway,Apron,IGNORE,Area
+Aeroway,Apron,Airport,Area
 Amenity,Marketplace,IGNORE,Line
 Service,Parking Aisle,IGNORE,Line
-Place,Locality,Settlement,Point
+Place,Locality,IGNORE,Point
 Place,Hamlet,Settlement,Point
 Place,Town,Urban Area,Point
 Place,Settlements,Settlement,Point
@@ -123,20 +123,20 @@ Place,Town,Urban Area,Area
 Place,Settlements,Settlement,Area
 Power,Tower,Power Tower,Point
 Power,Pole,IGNORE,Point
-Man-Made,Mast,Wind Mast,Point
+Man-Made,Mast,Mast,Point
 Man-Made,Petroleum well,Oil Well,Point
 Man-Made,Tower,Building,Point
 Airport,Name,Airport,Point
 Aeroway,Aerodrome,Airport,Point
 Aeroway,Helipad,Heliport,Point
 Railways,Level Crossing,IGNORE,Point
-Railways,station,Building,Point
+Railways,station,Railway,Point
 Traffic Calming,Hump,IGNORE,Point
 Military,"Naval Base, Check Point",Military,Point
 Historic,Monument,Historical Building,Point
-Natural,Peak,Mountain Peak,Point
+Natural,Peak,IGNORE,Point
 Tourism,Hotel,Tourist Accomodation,Point
-Tourism,Viewpoint,IGNORE,Point
+Tourism,Viewpoint,Tourist Area,Point
 Shop,Hardware,Commercial Building,Area
 Shop,Wholescale,Commercial Building,Area
 Shop,Car,Commercial Building,Area
@@ -292,7 +292,7 @@ Buildings,Farm,Farmland,Area
 Buildings,Hotel,Tourist Accomodation,Area
 Buildings,House,Residential,Area
 Buildings,Houseboat,Residential,Area
-Buildings,Terrace,IGNORE,Area
+Buildings,Terrace,Residential,Area
 Buildings,Kiosk,Commercial,Area
 Buildings,Office,Commercial,Area
 Buildings,Retail,Commercial,Area
@@ -309,7 +309,7 @@ Buildings,religious,Religious Area,Area
 Buildings,shrine,Religious Area,Area
 Buildings,synagogue,Religious Area,Area
 Buildings,temple,Religious Area,Area
-Buildings,Bridge,IGNORE,Area
+Buildings,Bridge,Bridge,Area
 Buildings,Military,Military,Area
 Buildings,Roof,IGNORE,Area
 Buildings,School,Educational Facility,Area
@@ -320,21 +320,21 @@ Buildings,Roof,IGNORE,Area
 Buildings,Industrial,Industrial,Area
 Office,Government,Government,Area
 Office,Estate Agent,Commercial,Area
-Leaftype,Needleleaved,IGNORE,Area
-Leaftype,Leafless,IGNORE,Area
-Leaftype,Broadleaved,IGNORE,Area
-Leaftype,Mixed,IGNORE,Area
+Leaftype,Needleleaved,Forest,Area
+Leaftype,Leafless,Forest,Area
+Leaftype,Broadleaved,Forest,Area
+Leaftype,Mixed,Forest,Area
 Leisure,Playground,Residential,Area
 Leisure,Park,Residential,Area
 Leisure,Pitch,IGNORE,Area
-Leisure,Swimming Pool,IGNORE,Area
-Leisure,Stadium,IGNORE,Area
+Leisure,Swimming Pool,Commercial,Area
+Leisure,Stadium,Commercial,Area
 Leisure,adult_gaming_centre,Commercial,Area
 Leisure,adult_gaming_centre,Commercial,Point
 Leisure,amusement_arcade,Commercial,Point
 Leisure,amusement_arcade,Commercial,Area
-Leisure,beach_resort,Tourist Accomodation,Area
-Leisure,beach_resort,Tourist Accomodation,Point
+Leisure,beach_resort,Tourist Accommodation,Area
+Leisure,beach_resort,Tourist Accommodation,Point
 Leisure,bandstand,Commercial Building,Point
 Leisure,bandstand,Commercial,Area
 Leisure,bird_hide,IGNORE,Area
@@ -397,36 +397,36 @@ Historic,Aqueduct,Heritage Area,Line
 Historic,archaeological_site,Heritage Area,Line
 Historic,archaeological_site,Heritage Area,Area
 Historic,archaeological_site,Heritage Area,Point
-Historic,battlefield,IGNORE,Point
-Historic,battlefield,IGNORE,Area
+Historic,battlefield,Heritage Area,Point
+Historic,battlefield,Heritage Area,Area
 Historic,bomb_crater,IGNORE,Area
 Historic,bomb_crater,IGNORE,Point
 Historic,boundary_stone,IGNORE,Point
 Historic,Buildings,Historical Building,Point
 Historic,Buildings,Historical Building,Area
-Historic,cannon,IGNORE,Point
-Historic,castle,IGNORE,Point
-Historic,castle,IGNORE,Area
-Historic,castle_wall,IGNORE,Line
-Historic,castle_wall,IGNORE,Area
+Historic,cannon,Historical Building,Point
+Historic,castle,Historical Building,Point
+Historic,castle,Historical Building,Area
+Historic,castle_wall,Historical Building,Line
+Historic,castle_wall,Historical Building,Area
 Historic,charcoal_pile,IGNORE,Area
 Historic,charcoal_pile,IGNORE,Point
 Historic,church,Religious Building,Point
 Historic,church,Religious Area,Area
-Historic,city_gate,IGNORE,Area
-Historic,city_gate,IGNORE,Point
-Historic,citywalls,IGNORE,Line
-Historic,citywalls,IGNORE,Area
-Historic,creamery,IGNORE,Point
-Historic,creamery,IGNORE,Area
-Historic,farm,IGNORE,Point
-Historic,farm,IGNORE,Area
+Historic,city_gate,Historical Building,Area
+Historic,city_gate,Historical Building,Point
+Historic,citywalls,Historical Building,Line
+Historic,citywalls,Historical Building,Area
+Historic,creamery,IceCream,Point
+Historic,creamery,IceCream,Area
+Historic,farm,Historical Building,Point
+Historic,farm,Historical Building,Area
 Historic,fort,Historical Building,Point
 Historic,fort,Heritage Area,Area
 Historic,highwater_mark,IGNORE,Point
-Historic,locomotive,IGNORE,Point
-Historic,locomotive,IGNORE,Area
-Historic,manor,Heritage Area,Area
+Historic,locomotive,Historical Building,Point
+Historic,locomotive,Historical Building,Area
+Historic,manor,Historical Building,Area
 Historic,manor,Historical Building,Point
 Historic,memorial,Historical Building,Point
 Historic,memorial,Historical Building,Area
@@ -442,7 +442,7 @@ Historic,rune_stone,IGNORE,Point
 Historic,Ship,IGNORE,Point
 Historic,Ship,IGNORE,Area
 Boundary,aboriginal_lands,Indigenous Community,Area
-Boundary,border_zone,IGNORE,Area
+Boundary,border_zone,Border Zone,Area
 Boundary,forest,Forest,Area
 Boundary,forest_compartment,Forest,Area
 Boundary,hazard,IGNORE,Area
@@ -475,10 +475,10 @@ Landuse,forest,Forest,Area
 Landuse,forest,Forest,Point
 Landuse,meadow,Meadow,Point
 Landuse,meadow,Meadow,Area
-Landuse,orchard,SEZ,Area
-Landuse,orchard,SEZ,Point
-Landuse,vineyard,Vineyard,Point
-Landuse,vineyard,Vineyard,Area
+Landuse,orchard,Farmland,Area
+Landuse,orchard,Farmland,Point
+Landuse,vineyard,Farmland,Point
+Landuse,vineyard,Farmland,Area
 Landuse,aquaculture,Aquaculture,Area
 Landuse,aquaculture,Aquaculture,Point
 Landuse,basin,IGNORE,Point
@@ -508,15 +508,15 @@ Landuse,religious,Religious Building,Point
 Landuse,religious,Religious Area,Area
 Landuse,village_green,Village Green,Area
 Landuse,village_green,Village Green,Point
-Landuse,winter_sports,IGNORE,Point
-Landuse,winter_sports,IGNORE,Area
+Landuse,winter_sports,Tourist Area,Point
+Landuse,winter_sports,Tourist Area,Area
 Waterway,Stream,River,Area
 Boundary,special_economic_zone,SEZ,Point
 Waterway,River,River,Area
 Landuse,Residential,Residential,Point
 Landuse,port,Port,Point
 Boundary,national_park,National Park,Point
-Natural,Water,IGNORE,Point
+Natural,Water,Lake,Point
 voltage,8,8 kV Transmission Line,Line
 voltage,8kV,8 kV Transmission Line,Line
 voltage,8000,8 kV Transmission Line,Line
@@ -563,12 +563,12 @@ plant:source,solar,Solar Power Plant,Point
 plant:source,gas,Gas-Fired Power Plant,Point
 plant:source,hydro,Hydropower Plant,Point
 plant:source,biomass,Biogas Plant,Point
-generator:method,wind_turbine,IGNORE,Point
-generator:method,combustion,IGNORE,Point
-generator:method,photovoltaic,IGNORE,Point
+generator:method,wind_turbine,Wind Farm,Point
+generator:method,combustion,Power Plant,Point
+generator:method,photovoltaic,Solar Power Plant,Point
 generator:source,wind,Wind Farm,Point
 generator:source,solar,Solar Power Plant,Point
-generator:source,gas,IGNORE,Point
+generator:source,gas,Power Plant,Point
 amenity,Buildings,Building,Point
 power,plant,Power Plant,Point
 power,substation,Substation,Point
@@ -585,12 +585,12 @@ tourism, gallery,Tourist Area,Point
 tourism, gallery,Tourist Area,Area
 industrial,shipyard,Shipyard,Point
 industrial,shipyard,Shipyard,Area
-aeroway,heliport,Helipad,Point
-aeroway,heliport,Helipad,Area
-surface,Asphalt,Asphalt Road,Area
-surface,Asphalt,Asphalt Road,Line
-surface,concrete,Concrete Road,Line
-surface,concrete,Concrete Road,Area
+aeroway,heliport,Heliport,Point
+aeroway,heliport,Heliport,Area
+surface,Asphalt,Road,Area
+surface,Asphalt,Road,Line
+surface,concrete,Road,Line
+surface,concrete,Road,Area
 water,lake,Lake,Area
 water,lake,Lake,Point
 water, basin,Lake,Point
@@ -666,14 +666,14 @@ healthcare,hospital,Healthcare Facility,Area
 office,buildings  ,Commercial Building,Area
 tower:type,communication,Communication Tower,Point
 route,road ,Road,Line
-aerodrome,international,Public Airport,Point
-aerodrome,international,Public Airport,Area
+aerodrome,international,Airport,Point
+aerodrome,international,Airport,Area
 landuse,industrial,Industrial,Area
-landuse,scrub,Shrubland,Area
-landuse,grassland,Grassland,Area
+landuse,scrub,IGNORE,Area
+landuse,grassland,IGNORE,Area
 landuse,industrial,Industrial,Point
-landuse,scrub,Shrubland,Point
-landuse,grassland,Grassland,Point
+landuse,scrub,IGNORE,Point
+landuse,grassland,IGNORE,Point
 tracktype,grade1,Track,Line
 tracktype,grade2,Track,Line
 tracktype,grade3,Track,Line
@@ -714,9 +714,9 @@ station,substation,Substation,Point
 station,monorail,Railway,Line
 station,light rail,Railway,Line
 aerodrome:type,military,Military,Point
-aerodrome:type,public,Public Airport,Point
+aerodrome:type,public,Airport,Point
 aerodrome:type,military,Military,Area
-aerodrome:type,public,Public Airport,Area
+aerodrome:type,public,Airport,Area
 leaf_cycle,deciduous,Deciduous Tree,Point
 leaf_cycle,deciduous,Deciduous Tree,Area
 diplomatic,embassy,Diplomatic Institution,Area
@@ -743,14 +743,14 @@ building:use,hotel,Tourist Accomodation,Point
 building:use,industrial,Commercial Building,Point
 building:use,office,Commercial Building,Point
 building:use,residential,Residential Building,Point
-shoulder,yes,Shoulder Road,Line
-shoulder,right,Shoulder Road,Line
-shoulder,both,Shoulder Road,Line
-shoulder,left,Shoulder Road,Line
-shoulder,yes,Shoulder Road,Area
-shoulder,right,Shoulder Road,Area
-shoulder,both,Shoulder Road,Area
-shoulder,left,Shoulder Road,Area
+shoulder,yes,IGNORE,Line
+shoulder,right,IGNORE,Line
+shoulder,both,IGNORE,Line
+shoulder,left,IGNORE,Line
+shoulder,yes,IGNORE,Area
+shoulder,right,IGNORE,Area
+shoulder,both,IGNORE,Area
+shoulder,left,IGNORE,Area
 hazard,landslides,Landslide,Area
 hazard,landslides,Landslide,Line
 hazard,landslides,Landslide,Point
@@ -836,9 +836,9 @@ attraction,animal,IGNORE,Point
 attraction,roller coaster,Tourist Area,Point
 attraction,roller coaster,Tourist Area,Line
 attraction,roller coaster,Tourist Area,Area
-attraction,train,IGNORE,Line
-attraction,maze,IGNORE,Area
-attraction,maze,IGNORE,Point
+attraction,train,Tourist Area,Line
+attraction,maze,Tourist Area,Area
+attraction,maze,Tourist Area,Point
 voltage:secondary,400,IGNORE,Point
 voltage:secondary,...,IGNORE,Point
 zoo,safari park,Tourist Area,Point
@@ -850,12 +850,12 @@ laundry_service,yes,Commercial Building,Point
 laundry_service,yes,Commercial Building,Area
 e-road:class,A-intermediate,IGNORE,Point
 e-road:class,A-intermediate,IGNORE,Area
-bridge:structure,humpback,IGNORE,Point
-bridge:structure,humpback,IGNORE,Line
-bridge:structure,beam,IGNORE,Point
-bridge:structure,beam,IGNORE,Line
-bridge:structure,suspension,IGNORE,Point
-bridge:structure,suspension,IGNORE,Line
+bridge:structure,humpback,Bridge,Point
+bridge:structure,humpback,Bridge,Line
+bridge:structure,beam,Bridge,Point
+bridge:structure,beam,Bridge,Line
+bridge:structure,suspension,Bridge,Point
+bridge:structure,suspension,Bridge,Line
 disused,quarry,Disused Quarry,Point
 disused,quarry,Disused Quarry,Area
 disused:landuse,quarry,Disused Quarry,Point
@@ -879,8 +879,8 @@ landcover,bushes,Shrubland,Point
 landcover,bushes,Shrubland,Area
 landcover,beach,Beach,Point
 landcover,beach,Beach,Area
-landcover,grass,Grassland,Point
-landcover,grass,Grassland,Area
+landcover,grass,IGNORE,Point
+landcover,grass,IGNORE,Area
 proposed,rail,Upcoming Railway,Point
 proposed,tram,Upcoming Railway,Point
 proposed,light_rail,Upcoming Railway,Point
@@ -962,10 +962,10 @@ proposed:railway,station,Upcoming Railway,Point
 proposed:railway,station,Upcoming Railway,Area
 light_rail,regular,Railway,Line
 light_rail,yes,Railway,Line
-highway:category:pl,1,National Road,Line
-highway:category:pl,2,Provincial Road,Line
-highway:category:pl,3,District Road,Line
-highway:category:pl,4,Municipal Road,Line
+highway:category:pl,1,Primary Road,Line
+highway:category:pl,2,Primary Road,Line
+highway:category:pl,3,Primary Road,Line
+highway:category:pl,4,Primary Road,Line
 maxaxleload,8,IGNORE,Line
 maxaxleload,10,IGNORE,Line
 maxaxleload,11.5,IGNORE,Line
@@ -1047,7 +1047,7 @@ seamark:small_craft_facility:category,boatyard,IGNORE,Point
 disused:highway,...........................................,Disused Road,Area
 disused:highway,...........................................,Disused Road,Line
 monitoring:weather,yes,Weather Monitoring Station,Point
-monitoring:weather,wind,Wind Mast,Point
+monitoring:weather,wind,Weather Monitoring Station,Point
 natural,reef,Reef,Point
 natural,reef,Reef,Area
 reef,coral,Coral Reef,Point
@@ -1080,8 +1080,8 @@ Building level,1,Building,Point
 Building level,3,Building,Point
 Building level,1,Building,Area
 Building level,3,Building,Area
-Place ,farm,Farm,Point
-Place ,farm,Farm,Area
+Place ,farm,Farmyard,Point
+Place ,farm,Farmyard,Area
 ruins,church,Religious Building,Point
 ruins,church,Religious Building,Area
 Place ,isolated dwelling,Building,Point
