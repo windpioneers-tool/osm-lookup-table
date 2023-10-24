@@ -31,7 +31,7 @@ Breakwater,Natural Environment,style_Breakwater,0.5,1,2
 Bridge,Built Environment,style_Bridge,0,0,0
 Broken Road,Transport,style_Roads,0.3,0.5,1
 Building,Built Environment,style_Buildings,0.15,0.3,0.6
-Cemetry,Land Use,style_Cemetry,0.5,1,2
+Cemetery,Land Use,style_Cemetery,0.5,1,2
 Coal Fired Power Plant,Power,style_NonRenewableEnergyPowerStation,5,10,15
 Coastline,Natural Environment,style_InlandWater,0,0,0
 Commercial,Land Use,style_Settlements,0,0,0
@@ -40,7 +40,7 @@ Communication Tower,Built Environment,style_CommunicationTower,0.3,0.5,1
 Concrete Road,Transport,style_Roads,0.3,0.5,1
 Coral Reef,Marine Environment,style_CoralReefs,1,2,5
 Country Border,Administrative,style_Boundary,2,3,5
-Crematorium,Land Use,style_Cemetry,0.2,0.4,0.8
+Crematorium,Land Use,style_Cemetery,0.2,0.4,0.8
 Dam,Built Environment,style_Dam,0.5,1,2
 Deciduous Tree,Natural Environment,style_DeciduousTree,0,0,0
 Desert,Natural Environment,style_Yellow,0,0,0
