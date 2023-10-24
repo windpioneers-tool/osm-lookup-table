@@ -141,6 +141,7 @@ Protected Tree,Designated Areas,style_Treesandvegetativecover,0.3,0.4,0.5
 Province Border,Administrative,style_Province,0.2,0.3,0.5
 Provincial Road,Transport,style_PrimaryRoads,0.5,1,2
 Public Airport,Transport,style_Airports,5,10,20
+Airport,Transport,style_Airports,5,10,20
 Public Building,Built Environment,style_Buildings,0,0,0
 Quarry,Built Environment,style_Mining,0.5,1,2
 Quay,Marine Environment,style_Grey,1,2,5
