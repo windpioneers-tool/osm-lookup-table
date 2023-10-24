@@ -59,7 +59,7 @@ Economic Corridor,Land Use,style_Lime,0,0,0
 Educational Facility,Built Environment,style_EducationalFacility,0.5,1,2
 Embankment,Built Environment,style_Embankment,0.5,1,2
 Estuary,Natural Environment,style_InlandWater,0.1,0.3,0.5
-Evergreen Tree,Natural Environment,style_EvergreenTree,0,0,0
+Evergreen Tree,Natural Environment,style_Treesandvegetativecover,0,0,0
 Farmland,Land Use,style_Mint,0.3,0.4,0.5
 Farmyard,Land Use,style_Mint,0.3,0.4,0.5
 Fell,Natural Environment,style_NaturalLandCover,0,0,0
