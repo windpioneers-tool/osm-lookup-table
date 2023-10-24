@@ -1,37 +1,38 @@
 Constraint Name,Category,StyleName,Primary,Secondary,Tertiary
-11 kV Transmission Line,Power,style_Grid-11kV,0.2,0.5,-20
-132 kV Transmission Line,Power,style_Grid-132kV,0.2,0.5,-20
-22 kV Transmission Line,Power,style_Grid-22kV,0.2,0.5,-20
-25 kV Transmission Line,Power,style_Grid-25kV,0.2,0.5,-20
-275 kV Transmission Line,Power,style_Grid-275kV,0.2,0.5,-20
-33 kV Transmission Line,Power,style_Grid-33kV,0.2,0.5,-20
-400 kV Transmission Line,Power,style_Grid-440kV,0.2,0.5,-20
-44 kV Transmission Line,Power,style_Grid-44kV,0.2,0.5,-20
-500 kV Transmission Line,Power,style_Grid-550kV,0.2,0.5,-20
-55 kV Transmission Line,Power,style_Grid-44kV,0.2,0.5,-20
-765 kV Transmission Line,Power,style_Grid-550kV,0.2,0.5,-20
-8 kV Transmission Line,Power,style_Grid-11kV,0.2,0.5,-20
-88 kV Transmission Line,Power,style_Grid-88kV,0.2,0.5,-20
+11 kV Transmission Line,Power,style_Grid-11kV,5,10,20
+132 kV Transmission Line,Power,style_Grid-132kV,5,10,20
+22 kV Transmission Line,Power,style_Grid-22kV,5,10,20
+25 kV Transmission Line,Power,style_Grid-25kV,5,10,20
+275 kV Transmission Line,Power,style_Grid-275kV,5,10,20
+33 kV Transmission Line,Power,style_Grid-33kV,5,10,20
+400 kV Transmission Line,Power,style_Grid-440kV,5,10,20
+44 kV Transmission Line,Power,style_Grid-44kV,5,10,20
+500 kV Transmission Line,Power,style_Grid-550kV,5,10,20
+55 kV Transmission Line,Power,style_Grid-44kV,5,10,20
+765 kV Transmission Line,Power,style_Grid-550kV,5,10,20
+8 kV Transmission Line,Power,style_Grid-11kV,5,10,20
+88 kV Transmission Line,Power,style_Grid-88kV,5,10,20
 Admin Boundary,Administrative,style_Province,0.2,0.3,0.5
 Animal Keeping,Land Use,style_AnimalKeeping,0.5,1,2
 Aquaculture,Land Use,style_Aquaculture,0.5,1,2
 Asphalt Road,Transport,style_Roads,0.3,0.5,1
-Avalanche,Hazards,style_Avalanche,0.5,1,2
-Battery Storage Plant,Power,style_BatteryStorage,0.5,1,2
+Avalanche,Hazards,style_Avalanche,5,10,20
+Battery Storage Plant,Power,style_BatteryStorage,5,10,15
 Beach,Natural Environment,style_Yellow,0,0,0
 Bedrock,Natural Environment,style_MarineProtection,0,0,0
-Biogas Plant,Power,style_RenewableEnergyPowerStation,0.5,1,2
-Biohazard,Hazards,style_Biohazard,1,2,5
+Biogas Plant,Power,style_RenewableEnergyPowerStation,5,10,15
+Biohazard,Hazards,style_Biohazard,5,10,20
 Bird Risk Area,Designated Areas,style_BirdRisk,0.5,1,2
 Blowhole,Natural Environment,style_geyser,0.5,1,2
 Blowhole,Natural Environment,style_InlandWater,0,0,0
 Boatyard,Marine Environment,style_Ports,0.5,1,2
+Boundary,Administrative,style_Boundary,0.5,1,2
 Breakwater,Natural Environment,style_Breakwater,0.5,1,2
 Bridge,Built Environment,style_Bridge,0,0,0
 Broken Road,Transport,style_Roads,0.3,0.5,1
 Building,Built Environment,style_Buildings,0.15,0.3,0.6
-Cemetery,Land Use,style_Cemetery,0.5,1,2
-Coal-Fired Power Plant,Power,style_NonRenewableEnergyPowerStation,0.5,1,2
+Cemetry,Land Use,style_Cemetry,0.5,1,2
+Coal Fired Power Plant,Power,style_NonRenewableEnergyPowerStation,5,10,15
 Coastline,Natural Environment,style_InlandWater,0,0,0
 Commercial,Land Use,style_Settlements,0,0,0
 Commercial Building,Built Environment,style_Buildings,0.5,1,2
@@ -58,48 +59,48 @@ Economic Corridor,Land Use,style_Lime,0,0,0
 Educational Facility,Built Environment,style_EducationalFacility,0.5,1,2
 Embankment,Built Environment,style_Embankment,0.5,1,2
 Estuary,Natural Environment,style_InlandWater,0.1,0.3,0.5
-Evergreen Tree,Natural Environment,style_EvergreenTree,0,0,0
+Evergreen Tree,Natural Environment,style_Treesandvegetativecover,0,0,0
 Farmland,Land Use,style_Mint,0.3,0.4,0.5
 Farmyard,Land Use,style_Mint,0.3,0.4,0.5
 Fell,Natural Environment,style_NaturalLandCover,0,0,0
 Fjord,Natural Environment,style_InlandWater,0,0,0
-Flooding,Hazards,style_DisasterProneArea,1,2,5
+Flooding,Hazards,style_DisasterProneArea,5,10,20
 Forest,Natural Environment,style_Treesandvegetativecover,0.5,1,2
 Fumarole,Hazards,style_geyser,0.5,1,2
-Gas-Fired Power Plant,Power,style_NonRenewableEnergyPowerStation,0.2,0.5,1
-Geothermal Power Plant,Power,style_RenewableEnergyPowerStation,0.2,0.5,1
+Gas-Fired Power Plant,Power,style_NonRenewableEnergyPowerStation,5,10,15
+Geothermal Power Plant,Power,style_RenewableEnergyPowerStation,5,10,15
 Geyser,Hazards,style_geyser,0.5,1,2
 Glacier,Natural Environment,style_White,0.5,1,2
 Government,Land Use,style_Man-madeinfrastructure,0.1,0.2,0.4
 Grassland,Natural Environment,style_Grassland,0.5,1,2
-Grid,Power,style_Grid,0.2,0.5,1
+Grid,Power,style_Grid,5,10,15
 Harbour,Marine Environment,style_Harbour,1,2,5
 Healthcare Facility,Built Environment,style_HealthcareFacility,0.5,1,2
 Heathland,Natural Environment,style_NaturalLandCover,0,0,0
-Helipad,Transport,style_Heliport,1,2,5
-Heliport,Transport,style_Heliport,1,2,5
+Helipad,Transport,style_Heliport,5,10,20
+Heliport,Transport,style_Heliport,5,10,20
 Heritage Area,Land Use,style_HistoricAreas,0.5,1,2
 Historical Building,Built Environment,style_HistoricAreas,0.5,1,2
 Hot Spring,Natural Environment,style_HotSpring,0.5,1,2
-Hydropower Plant,Power,style_HydropowerPlant,0.5,1,2
+Hydropower Plant,Power,style_HydropowerPlant,5,10,15
 Ice Road,Transport,style_Roads,0.3,0.5,1
 Indigenous Community,Other,style_IndigenousCommunities,0.5,1,2
 Industrial,Land Use,style_Industrial,0.5,1,2
 IUCN Ia,Designated Areas,style_IUCN,0.5,1,2
 IUCN Ib,Designated Areas,style_IUCN,0.5,1,2
-IUCN II ,Designated Areas,style_IUCN,0.5,1,2
+IUCN II,Designated Areas,style_IUCN,0.5,1,2
 IUCN III,Designated Areas,style_IUCN,0.5,1,2
 IUCN IV,Designated Areas,style_IUCN,0.5,1,2
-IUCN V ,Designated Areas,style_IUCN,0.5,1,2
+IUCN V,Designated Areas,style_IUCN,0.5,1,2
 IUCN VI,Designated Areas,style_IUCN,0.5,1,2
 Lake,Natural Environment,style_InlandWater,0.1,0.3,0.5
 Landfill,Land Use,style_Landfill,0.5,1,2
-Landslide,Hazards,style_Landslide,1,2,5
+Landslide,Hazards,style_Landslide,5,10,20
 Legally Protected Land,Designated Areas,style_ProtectedAreas,0.5,1,2
 Marina,Marine Environment,style_Ports,1,2,5
 Marsh,Natural Environment,style_Teal,0.1,0.3,0.5
 Meadow,Natural Environment,style_NaturalLandCover,0.5,1,2
-Military,Designated Areas,style_Military,1,2,5
+Military,Designated Areas,style_Military,5,10,20
 Military Risk,Hazards,style_UnexplodedOrdnance,0.5,1,2
 Mine,Land Use,style_Mine,0.3,0.4,0.5
 Minefield,Hazards,style_DisasterProneArea,5,10,20
@@ -116,11 +117,11 @@ National Forest,Designated Areas,style_NationalPark,0.5,1,1.5
 National Park,Designated Areas,style_NationalPark,0.5,1,1.5
 National Road,Transport,style_Highways,0.5,1,2
 Nature Reserve,Designated Areas,style_NationalPark,0.5,1,1.5
-Nuclear,Hazards,style_NuclearHazard,1,2,5
-Nuclear Power Plant,Power,style_NuclearPowerPlant,1,2,5
-Oil And Gas Field,Built Environment,style_OilField,1,2,5
+Nuclear,Hazards,style_NuclearHazard,5,10,20
+Nuclear Power Plant,Power,style_NuclearPowerPlant,5,10,15
+Oil And Gas Field,Built Environment,style_OilField,1,2,4
 Oil Well,Power,style_GasandOilWellsArea,0.3,0.6,1.2
-Oil-Fired Power Plant,Power,style_NonrenewableenergyPowerStation,0.5,1,2
+Oil-Fired Power Plant,Power,style_NonrenewableenergyPowerStation,5,10,15
 Orchard,Natural Environment,style_Orchard,0.3,0.4,0.5
 Orchard,Land Use,style_Mint,0.3,0.4,0.5
 Palaeontological Site,Designated Areas,style_PalaeontologicalSite,0.5,1,1.5
@@ -132,7 +133,7 @@ Power Cable,Power,style_Grid,0.3,0.5,1
 Power Plant,Power,style_Powerstations,0,0,0
 Power Tower,Power,style_Powerstations,0.1,0.2,0.4
 Primary Road,Transport,style_PrimaryRoads,0.5,1,2
-Private Airport,Transport,style_Airports,2,3,5
+Private Airport,Transport,style_Airports,5,10,20
 Protected Area,Designated Areas,style_ProtectedAreas,0.5,1,1.5
 Protected Forest,Designated Areas,style_ProtectedForest,0.5,1,1.5
 Protected Tree,Designated Areas,style_ProtectedForest,0.5,1,1.5
@@ -140,6 +141,7 @@ Protected Tree,Designated Areas,style_Treesandvegetativecover,0.3,0.4,0.5
 Province Border,Administrative,style_Province,0.2,0.3,0.5
 Provincial Road,Transport,style_PrimaryRoads,0.5,1,2
 Public Airport,Transport,style_Airports,5,10,20
+Airport,Transport,style_Airports,5,10,20
 Public Building,Built Environment,style_Buildings,0,0,0
 Quarry,Built Environment,style_Mining,0.5,1,2
 Quay,Marine Environment,style_Grey,1,2,5
@@ -160,7 +162,7 @@ Road,Transport,style_Roads,0.3,0.5,1
 Salt Marsh,Natural Environment,style_Teal,0.1,0.3,0.5
 Salt Pond,Natural Environment,style_Teal,0.5,1,2
 Scrub,Natural Environment,style_Treesandvegetativecover,0,0,0
-Seasonal Flooding,Hazards,style_Flooding,0.5,1,2
+Seasonal Flooding,Hazards,style_Flooding,3,5,10
 Secondary Road,Transport,style_SecondaryRoads,0.3,0.5,1
 Settlement,Built Environment,style_Settlements,0.5,0.7,1
 SEZ,Land Use,style_SEZ,0,0,0
@@ -169,11 +171,11 @@ Shoulder Road,Transport,style_Roads,0.3,0.5,1
 Shrubland,Natural Environment,style_Treesandvegetativecover,0,0,0
 Slipway,Marine Environment,style_Grey,1,2,5
 Social Facility,Built Environment,style_Towns,0.1,0.2,0.4
-Solar Power Plant,Power,style_SolarPlant,0.5,1,2
+Solar Power Plant,Power,style_SolarPlant,5,10,15
 Special Protected Area,Designated Areas,style_ProtectedAreas,0.5,1,1.5
 State Forest,Designated Areas,style_Treesandvegetativecover,0.5,1,1.5
 State Park,Designated Areas,style_Treesandvegetativecover,0.5,1,1.5
-Substation,Power,style_Substations,0.5,1,2
+Substation,Power,style_Substations,5,10,15
 Tertiary Road,Transport,style_Roads,0.3,0.5,1
 Tidal Flat,Natural Environment,style_Teal,0.3,0.5,0.7
 Tourist Accomodation,Built Environment,style_TouristAccomodation,0.5,1,2
@@ -181,7 +183,7 @@ Tourist Area,Land Use,style_Tourist,0.2,0.3,0.5
 Track,Transport,style_Tracks,0.1,0.2,0.4
 Tundra,Natural Environment,style_Treesandvegetativecover,0,0,0
 Unexploded Ordnance,Hazards,style_UnexplodedOrdnance,5,10,20
-Upcoming Power Plant,Power,style_Powerstations,0.5,1,2
+Upcoming Power Plant,Power,style_Powerstations,5,10,15
 Upcoming Railway,Transport,style_Railways,0.3,0.5,1
 Upcoming Road,Transport,style_Roads,0.3,0.5,1
 Urban Area,Land Use,style_UrbanAreas,0,0,0
@@ -191,14 +193,14 @@ Vineyard,Land Use,style_Green,0.3,0.4,0.5
 Volcanic Caldera Rim,Natural Environment,style_Volcano,0.5,1,2
 Volcanic Lava Field,Hazards,style_Volcano,0.5,1,2
 Volcano,Hazards,style_Volcano,5,10,20
-Waste Incineration Plant,Power,style_Powerstations,0.5,1,2
+Waste Incineration Plant,Power,style_Powerstations,5,10,15
 Weather Monitoring Station,Built Environment,style_WeatherMonitoringStation,0.5,1,2
 Weir,Built Environment,style_Dam,0.5,1,2
 Wetland,Natural Environment,style_Teal,0.5,1,2
 Wildlife Corridor,Designated Areas,style_SpeciesData,0.5,1,1.5
 Wildlife Habitat,Designated Areas,style_SpeciesData,0.5,1,1.5
 Wildlife Sanctuary,Designated Areas,style_SpeciesData,0.5,1,1.5
-Wind Farm,Power,style_WindTurbines,1,2,5
+Wind Farm,Power,style_WindTurbines,5,10,20
 Wind Mast,Built Environment,style_Mast,1,2,3
-Wind Turbine,Power,style_WindTurbines,1,2,5
+Wind Turbine,Power,style_WindTurbines,5,10,20
 Winter Road,Transport,style_Roads,0.3,0.5,1
