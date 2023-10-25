@@ -41,6 +41,7 @@ Concrete Road,Transport,style_Roads,0.3,0.5,1
 Coral Reef,Marine Environment,style_CoralReefs,1,2,5
 Country Border,Administrative,style_Boundary,2,3,5
 Crematorium,Land Use,style_Cemetery,0.2,0.4,0.8
+Creamery,Built Environment,style_Creamery,-20,-30,-100
 Dam,Built Environment,style_Dam,0.5,1,2
 Deciduous Tree,Natural Environment,style_DeciduousTree,0,0,0
 Desert,Natural Environment,style_Yellow,0,0,0
