@@ -545,6 +545,11 @@ voltage,88,88 kV Transmission Line,Line
 voltage,88kV,88 kV Transmission Line,Line
 voltage,88000,88 kV Transmission Line,Line
 voltage,88000V,88 kV Transmission Line,Line
+voltage,230,230 kV Transmission Line,Line
+voltage,230kV,230 kV Transmission Line,Line
+voltage,230000,230 kV Transmission Line,Line
+voltage:primary,230000,230 kV Transmission Line,Line
+voltage,230000V,230 kV Transmission Line,Line
 voltage,275,275 kV Transmission Line,Line
 voltage,275kV,275 kV Transmission Line,Line
 voltage,275000,275 kV Transmission Line,Line
@@ -552,6 +557,7 @@ voltage,275000V,275 kV Transmission Line,Line
 voltage,500,500 kV Transmission Line,Line
 voltage,500kV,500 kV Transmission Line,Line
 voltage,500000,500 kV Transmission Line,Line
+voltage:secondary,500000,500 kV Transmission Line,Line
 voltage,500000V,500 kV Transmission Line,Line
 voltage,400000,400 kV Transmission Line,Line
 voltage,765000,765 kV Transmission Line,Line
