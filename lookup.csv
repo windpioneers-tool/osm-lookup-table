@@ -88,11 +88,11 @@ Natural,Sand,Natural Features,Area
 Natural,Wetland,Natural Features,Area
 Natural,Beach,Natural Features,Area
 Natural,Scrub,Natural Features,Area
-Natural,Grassland,Forest,Area
+Natural,Grassland,IGNORE,Area
 Natural,Coastline,Coastline,Line
 Natural,Tree row,IGNORE,Line
 Natural,Ridge,Mountain Ridge,Line
-Barrier,"Fence, Wall",IGNORE,Line
+Barrier,Fence, Wall,IGNORE,Line
 Barrier,Cattle Grid,IGNORE,Point
 Barrier,Gate,IGNORE,Point
 Barrier,Border Control,Buildings,Point
@@ -132,7 +132,7 @@ Aeroway,Helipad,Airports,Point
 Railways,Level Crossing,IGNORE,Point
 Railways,station,Buildings,Point
 Traffic Calming,Hump,IGNORE,Point
-Military,"Naval Base, Check Point",Buildings,Point
+Military,Naval Base, Check Point,Buildings,Point
 Historic,Monument,Buildings,Point
 Natural,Peak,Mountain Peak,Point
 Tourism,Hotel,Buildings,Point
@@ -506,7 +506,7 @@ Landuse,recreation_ground,Tourist Area,Area
 Landuse,recreation_ground,Buildings,Point
 Landuse,religious,Religious Buildings,Point
 Landuse,religious,Religious Area,Area
-Landuse,village_green,Forest,Area
+Landuse,village_green,IGNORE,Area
 Landuse,village_green,Settlements,Point
 Landuse,winter_sports,IGNORE,Point
 Landuse,winter_sports,IGNORE,Area
