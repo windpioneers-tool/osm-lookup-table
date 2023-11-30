@@ -4,7 +4,7 @@ Highway,Secondary,Road,Line
 Highway,Tertiary,Road,Line
 Highway,Unclassified,Road,Line
 Highway,Path,Road,Line
-Highway,Trunk,Road,Line
+Highway,Trunk,Primary Road,Line
 Highway,Service,Road,Line
 Highway,Residential,Road,Line
 Highway,Path,Road,Line
