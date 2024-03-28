@@ -204,63 +204,63 @@ Wind Farm,Power,style_WindTurbines,1,2,5
 Wind Mast,Built Environment,style_Mast,1,2,3
 Wind Turbine,Power,style_WindTurbines,1,2,5
 Winter Road,Transport,style_Roads,0.3,0.5,1
-Wind_Abandoned,PowerPlant,style_Wind_Abandoned,1,2,5
-Wind_Construction,PowerPlant,style_Wind_Construction,1,2,5
-Wind_Decommissioned,PowerPlant,style_Wind_Decommissioned,1,2,5
-Wind_Development,PowerPlant,style_Wind_Development,1,2,5
-Wind_Operating,PowerPlant,style_Wind_Operating,5,8,10
-Battery_Abandoned,PowerPlant,style_Battery_Abandoned,1,2,5
-Battery_Construction,PowerPlant,style_Battery_Construction,1,2,5
-Battery_Decommissioned,PowerPlant,style_Battery_Decommissioned,1,2,5
-Battery_Development,PowerPlant,style_Battery_Development,1,2,5
-Battery_Operating,PowerPlant,style_Battery_Operating,1,2,5
-Biogas_Abandoned,PowerPlant,style_Biogas_Abandoned,1,2,5
-Biogas_Construction,PowerPlant,style_Biogas_Construction,1,2,5
-Biogas_Decommissioned,PowerPlant,style_Biogas_Decommissioned,1,2,5
-Biogas_Development,PowerPlant,style_Biogas_Development,1,2,5
-Biogas_Operating,PowerPlant,style_Biogas_Operating,1,2,5
-Coal_Abandoned,PowerPlant,style_Coal_Abandoned,1,2,5
-Coal_Construction,PowerPlant,style_Coal_Construction,1,2,5
-Coal_Decommissioned,PowerPlant,style_Coal_Decommissioned,1,2,5
-Coal_Development,PowerPlant,style_Coal_Development,1,2,5
-Coal_Operating,PowerPlant,style_Coal_Operating,1,2,5
-Distillate_Abandoned,PowerPlant,style_Distillate_Abandoned,1,2,5
-Distillate_Construction,PowerPlant,style_Distillate_Construction,1,2,5
-Distillate_Decommissioned,PowerPlant,style_Distillate_Decommissioned,1,2,5
-Distillate_Development,PowerPlant,style_Distillate_Development,1,2,5
-Distillate_Operating,PowerPlant,style_Distillate_Operating,1,2,5
-Gas_Abandoned,PowerPlant,style_Gas_Abandoned,1,2,5
-Gas_Construction,PowerPlant,style_Gas_Construction,1,2,5
-Gas_Decommissioned,PowerPlant,style_Gas_Decommissioned,1,2,5
-Gas_Development,PowerPlant,style_Gas_Development,1,2,5
-Gas_Operating,PowerPlant,style_Gas_Operating,1,2,5
-Geothermal_Abandoned,PowerPlant,style_Geothermal_Abandoned,1,2,5
-Geothermal_Construction,PowerPlant,style_Geothermal_Construction,1,2,5
-Geothermal_Decommissioned,PowerPlant,style_Geothermal_Decommissioned,1,2,5
-Geothermal_Development,PowerPlant,style_Geothermal_Development,1,2,5
-Geothermal_Operating,PowerPlant,style_Geothermal_Operating,1,2,5
-Hydro_Abandoned,PowerPlant,style_Hydro_Abandoned,1,2,5
-Hydro_Construction,PowerPlant,style_Hydro_Construction,1,2,5
-Hydro_Decommissioned,PowerPlant,style_Hydro_Decommissioned,1,2,5
-Hydro_Development,PowerPlant,style_Hydro_Development,1,2,5
-Hydro_Operating,PowerPlant,style_Hydro_Operating,1,2,5
-Hydrogen_Abandoned,PowerPlant,style_Hydrogen_Abandoned,1,2,5
-Hydrogen_Construction,PowerPlant,style_Hydrogen_Construction,1,2,5
-Hydrogen_Decommissioned,PowerPlant,style_Hydrogen_Decommissioned,1,2,5
-Hydrogen_Development,PowerPlant,style_Hydrogen_Development,1,2,5
-Hydrogen_Operating,PowerPlant,style_Hydrogen_Operating,1,2,5
-Nuclear_Abandoned,PowerPlant,style_Nuclear_Abandoned,1,2,5
-Nuclear_Construction,PowerPlant,style_Nuclear_Construction,1,2,5
-Nuclear_Decommissioned,PowerPlant,style_Nuclear_Decommissioned,1,2,5
-Nuclear_Development,PowerPlant,style_Nuclear_Development,1,2,5
-Nuclear_Operating,PowerPlant,style_Nuclear_Operating,1,2,5
-SolarPV_Abandoned,PowerPlant,style_SolarPV_Abandoned,1,2,5
-SolarPV_Construction,PowerPlant,style_SolarPV_Construction,1,2,5
-SolarPV_Decommissioned,PowerPlant,style_SolarPV_Decommissioned,1,2,5
-SolarPV_Development,PowerPlant,style_SolarPV_Development,1,2,5
-SolarPV_Operating,PowerPlant,style_SolarPV_Operating,1,2,5
-SolarThermal_Abandoned,PowerPlant,style_SolarThermal_Abandoned,1,2,5
-SolarThermal_Construction,PowerPlant,style_SolarThermal_Construction,1,2,5
-SolarThermal_Decommissioned,PowerPlant,style_SolarThermal_Decommissioned,1,2,5
-SolarThermal_Development,PowerPlant,style_SolarThermal_Development,1,2,5
-SolarThermal_Operating,PowerPlant,style_SolarThermal_Operating,1,2,5
+Wind Abandoned,PowerPlant,style_WindAbandoned,1,2,5
+Wind Construction,PowerPlant,style_WindConstruction,1,2,5
+Wind Decommissioned,PowerPlant,style_WindDecommissioned,1,2,5
+Wind Development,PowerPlant,style_WindDevelopment,1,2,5
+Wind Operating,PowerPlant,style_WindOperating,5,8,10
+Battery Abandoned,PowerPlant,style_BatteryAbandoned,1,2,5
+Battery Construction,PowerPlant,style_BatteryConstruction,1,2,5
+Battery Decommissioned,PowerPlant,style_BatteryDecommissioned,1,2,5
+Battery Development,PowerPlant,style_BatteryDevelopment,1,2,5
+Battery Operating,PowerPlant,style_BatteryOperating,1,2,5
+Biogas Abandoned,PowerPlant,style_BiogasAbandoned,1,2,5
+Biogas Construction,PowerPlant,style_BiogasConstruction,1,2,5
+Biogas Decommissioned,PowerPlant,style_BiogasDecommissioned,1,2,5
+Biogas Development,PowerPlant,style_BiogasDevelopment,1,2,5
+Biogas Operating,PowerPlant,style_BiogasOperating,1,2,5
+Coal Abandoned,PowerPlant,style_CoalAbandoned,1,2,5
+Coal Construction,PowerPlant,style_CoalConstruction,1,2,5
+Coal Decommissioned,PowerPlant,style_CoalDecommissioned,1,2,5
+Coal Development,PowerPlant,style_CoalDevelopment,1,2,5
+Coal Operating,PowerPlant,style_CoalOperating,1,2,5
+Distillate Abandoned,PowerPlant,style_DistillateAbandoned,1,2,5
+Distillate Construction,PowerPlant,style_DistillateConstruction,1,2,5
+Distillate Decommissioned,PowerPlant,style_DistillateDecommissioned,1,2,5
+Distillate Development,PowerPlant,style_DistillateDevelopment,1,2,5
+Distillate Operating,PowerPlant,style_DistillateOperating,1,2,5
+Gas Abandoned,PowerPlant,style_GasAbandoned,1,2,5
+Gas Construction,PowerPlant,style_GasConstruction,1,2,5
+Gas Decommissioned,PowerPlant,style_GasDecommissioned,1,2,5
+Gas Development,PowerPlant,style_GasDevelopment,1,2,5
+Gas Operating,PowerPlant,style_GasOperating,1,2,5
+Geothermal Abandoned,PowerPlant,style_GeothermalAbandoned,1,2,5
+Geothermal Construction,PowerPlant,style_GeothermalConstruction,1,2,5
+Geothermal Decommissioned,PowerPlant,style_GeothermalDecommissioned,1,2,5
+Geothermal Development,PowerPlant,style_GeothermalDevelopment,1,2,5
+Geothermal Operating,PowerPlant,style_GeothermalOperating,1,2,5
+Hydro Abandoned,PowerPlant,style_HydroAbandoned,1,2,5
+Hydro Construction,PowerPlant,style_HydroConstruction,1,2,5
+Hydro Decommissioned,PowerPlant,style_HydroDecommissioned,1,2,5
+Hydro Development,PowerPlant,style_HydroDevelopment,1,2,5
+Hydro Operating,PowerPlant,style_HydroOperating,1,2,5
+Hydrogen Abandoned,PowerPlant,style_HydrogenAbandoned,1,2,5
+Hydrogen Construction,PowerPlant,style_HydrogenConstruction,1,2,5
+Hydrogen Decommissioned,PowerPlant,style_HydrogenDecommissioned,1,2,5
+Hydrogen Development,PowerPlant,style_HydrogenDevelopment,1,2,5
+Hydrogen Operating,PowerPlant,style_HydrogenOperating,1,2,5
+Nuclear Abandoned,PowerPlant,style_NuclearAbandoned,1,2,5
+Nuclear Construction,PowerPlant,style_NuclearConstruction,1,2,5
+Nuclear Decommissioned,PowerPlant,style_NuclearDecommissioned,1,2,5
+Nuclear Development,PowerPlant,style_NuclearDevelopment,1,2,5
+Nuclear Operating,PowerPlant,style_NuclearOperating,1,2,5
+Solar PV Abandoned,PowerPlant,style_SolarPVAbandoned,1,2,5
+Solar PV Construction,PowerPlant,style_SolarPVConstruction,1,2,5
+Solar PV Decommissioned,PowerPlant,style_SolarPVDecommissioned,1,2,5
+Solar PV Development,PowerPlant,style_SolarPVDevelopment,1,2,5
+Solar PV Operating,PowerPlant,style_SolarPVOperating,1,2,5
+Solar Thermal Abandoned,PowerPlant,style_SolarThermalAbandoned,1,2,5
+Solar Thermal Construction,PowerPlant,style_SolarThermalConstruction,1,2,5
+Solar Thermal Decommissioned,PowerPlant,style_SolarThermalDecommissioned,1,2,5
+Solar Thermal Development,PowerPlant,style_SolarThermalDevelopment,1,2,5
+Solar Thermal Operating,PowerPlant,style_SolarThermalOperating,1,2,5
