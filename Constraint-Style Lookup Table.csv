@@ -81,6 +81,7 @@ Heathland,Natural Environment,style_NaturalLandCover,0,0,0
 Helipad,Transport,style_Heliport,1,2,5
 Heliport,Transport,style_Heliport,1,2,5
 Heritage Area,Land Use,style_HistoricAreas,0.5,1,2
+Highways,Transport,style_Highways,0.5,1,2
 Historical Building,Built Environment,style_HistoricAreas,0.5,1,2
 Hot Spring,Natural Environment,style_HotSpring,0.5,1,2
 Hydropower Plant,Power,style_HydropowerPlant,0.5,1,2
