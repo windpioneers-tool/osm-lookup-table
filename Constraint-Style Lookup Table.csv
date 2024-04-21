@@ -5,10 +5,12 @@ Constraint Name,Category,StyleName,Primary,Secondary,Tertiary
 25 kV Transmission Line,Power,style_Grid-25kV,0.2,0.5,-20
 275 kV Transmission Line,Power,style_Grid-275kV,0.2,0.5,-20
 33 kV Transmission Line,Power,style_Grid-33kV,0.2,0.5,-20
+330 kV Transmission Line,Power,style_Grid-330kV,0.2,0.5,-20
 400 kV Transmission Line,Power,style_Grid-440kV,0.2,0.5,-20
 44 kV Transmission Line,Power,style_Grid-44kV,0.2,0.5,-20
 500 kV Transmission Line,Power,style_Grid-550kV,0.2,0.5,-20
 55 kV Transmission Line,Power,style_Grid-44kV,0.2,0.5,-20
+66 kV Transmission Line,Power,style_Grid-66kV,0.2,0.5,-20
 765 kV Transmission Line,Power,style_Grid-550kV,0.2,0.5,-20
 8 kV Transmission Line,Power,style_Grid-11kV,0.2,0.5,-20
 88 kV Transmission Line,Power,style_Grid-88kV,0.2,0.5,-20
@@ -83,6 +85,8 @@ Heliport,Transport,style_Heliport,1,2,5
 Heritage Area,Land Use,style_HistoricAreas,0.5,1,2
 Highways,Transport,style_Highways,0.5,1,2
 Historical Building,Built Environment,style_HistoricAreas,0.5,1,2
+Historical Area,Built Environment,style_HistoricAreas,0.5,1,2
+Homestead,Land Use,style_Mint,0.3,0.4,0.5
 Hot Spring,Natural Environment,style_HotSpring,0.5,1,2
 Hydropower Plant,Power,style_HydropowerPlant,0.5,1,2
 Ice Road,Transport,style_Roads,0.3,0.5,1
@@ -127,6 +131,7 @@ Oil-Fired Power Plant,Power,style_NonrenewableenergyPowerStation,0.5,1,2
 Orchard,Natural Environment,style_Orchard,0.3,0.4,0.5
 Orchard,Land Use,style_Mint,0.3,0.4,0.5
 Palaeontological Site,Designated Areas,style_PalaeontologicalSite,0.5,1,1.5
+Pastoral Land,Natural Environment,style_NaturalLandCover,0.5,1,2
 Pier,Built Environment,style_Pier,0,0,0
 Pipeline,Built Environment,style_Pipeline,0.5,1,2
 Planned Transmission Line,Power,style_Grid,0.3,0.5,1
