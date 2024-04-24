@@ -182,6 +182,7 @@ Special Protected Area,Designated Areas,style_ProtectedAreas,0.5,1,1.5
 State Forest,Designated Areas,style_Treesandvegetativecover,0.5,1,1.5
 State Park,Designated Areas,style_Treesandvegetativecover,0.5,1,1.5
 Substation,Power,style_Substations,0.5,1,2
+Telecom,Built Environment,style_Telecom,0.3,0.5,1
 Tertiary Road,Transport,style_Roads,0.3,0.5,1
 Tidal Flat,Natural Environment,style_Teal,0.3,0.5,0.7
 Tourist Accomodation,Built Environment,style_TouristAccomodation,0.5,1,2
