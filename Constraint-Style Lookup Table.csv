@@ -12,7 +12,7 @@ Constraint Name,Category,StyleName,Primary,Secondary,Tertiary
 765 kV Transmission Line,Power,style_Grid-550kV,5,10,20
 8 kV Transmission Line,Power,style_Grid-11kV,5,10,20
 88 kV Transmission Line,Power,style_Grid-88kV,5,10,20
-Admin Boundary,Administrative,style_Province,0.2,0.3,0.5
+Admin Boundary,Administrative,style_Province,0.1,0.2,0.3
 Animal Keeping,Land Use,style_AnimalKeeping,0.5,1,2
 Aquaculture,Land Use,style_Aquaculture,0.5,1,2
 Asphalt Road,Transport,style_Roads,0.3,0.5,1
@@ -204,3 +204,4 @@ Wind Farm,Power,style_WindTurbines,5,10,20
 Wind Mast,Built Environment,style_Mast,1,2,3
 Wind Turbine,Power,style_WindTurbines,5,10,20
 Winter Road,Transport,style_Roads,0.3,0.5,1
+
